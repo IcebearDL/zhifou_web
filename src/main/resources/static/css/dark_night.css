@@ -1,0 +1,173 @@
+body{
+    background-color: #333333 !important;
+}
+
+nav{
+    background-color: #333333 !important;
+}
+
+.page-container-header{
+    background-color: #333333 !important;
+}
+
+.page-header-nav-top{
+    color: #c8c8c8 !important;
+    font-weight: normal!important;
+}
+
+.page-header-nav-top:hover{
+    color: #ff5c5c !important;
+    border-top: 4px solid #ff5c5c !important;
+}
+
+.page-header-nav{
+     color: #989898 !important;
+ }
+
+.page-header-nav-button{
+    color: #989898 !important;
+}
+
+.page-header-nav:hover{
+    color: #ff5c5c !important;
+    border-top: 4px solid #ff5c5c !important;
+    border-left: 1px solid transparent !important;
+    border-right: 1px solid transparent !important;
+}
+
+.page-header-nav-button:hover{
+    color: #ff5c5c!important;
+    border-top: 4px solid #ff5c5c!important;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+<<<<<<< HEAD
+}
+
+.page-header-nav-top{
+    border-top: 4px solid #ff5c5c!important;
+}
+
+.page-header-search-input{
+    color: #c8c8c8 !important;
+    background-color: #333333!important;
+}
+
+.search-input-content-broader{
+    color: #c8c8c8 !important;
+}
+
+.search-button:hover{
+    color: #c8c8c8 !important;
+}
+
+.page-header-nav-press{
+    color: #989898 !important;
+    border: 1px solid #989898 !important
+}
+
+.page-header-nav-under{
+    color: #989898 !important;
+    opacity: 0.7!important;
+}
+
+.page-header-nav-under:hover{
+    color: #989898 !important;
+}
+
+.page-header-nav-right{
+    color: #c8c8c8 !important;
+    font-weight: normal!important;
+}
+
+.page-right-card-info{
+    background-color: #3f3f3f!important;
+}
+
+.page-suggested-read-content{
+    background-color: #3f3f3f!important;
+}
+
+.page-suggested-title{
+    color: #989898 !important;
+}
+
+.page-suggested-title:hover{
+    color: #989898 !important;
+    text-decoration: underline!important;
+}
+
+.page-suggested-read-text{
+    color: #989898 !important;
+}
+
+.page-card-bottom{
+    background-color: #3f3f3f!important;
+}
+
+.page-card-bottom-reader{
+    color: #c8c8c8!important;
+    background-color: rgb(51, 51, 51) !important;
+}
+
+.page-card-bottom-reader:hover{
+    color: #484848!important;
+    background-color: #989898 !important;
+}
+
+
+.page-card-text-button{
+    color: #989898 !important;
+    text-decoration: underline!important;
+}
+
+.page-card-text-button:hover{
+    color: #c8c8c8 !important;
+}
+
+.page-card{
+    background-color: #3f3f3f;
+}
+
+.page-card-title{
+    color: #989898!important;
+}
+
+.page-card-title:hover{
+    color: #c8c8c8!important;
+}
+
+.page-card-text{
+    color: #989898!important;
+}
+
+.page-right-card-info-items{
+    color: #989898!important;
+}
+
+.page-right-card-info-items:hover{
+    color: #c8c8c8!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+}
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81

@@ -1,0 +1,246 @@
+
+.page-card{
+    position: relative;
+    width: 680px;
+    margin-bottom: 16px;
+    padding: 15px 20px 0 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+<<<<<<< HEAD
+}
+
+.question-top{
+    position: absolute;
+    top: -77px;
+=======
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+}
+
+.page-card-tips{
+    width: 680px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+}
+
+.page-card-more{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.page-card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.page-card-title:hover{
+    color: #3f65c9;
+}
+
+#pageCardMore:hover{
+    color: #1f8dfb !important;
+}
+
+.page-card-text{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+
+.page-card-text-pickUp{
+    font-size: 14px;
+    color: #5b5b5b;
+    cursor: pointer;
+}
+
+.page-card-comments-content{
+    padding-bottom: 20px;
+}
+
+.page-card-text-button{
+    color: #1f8dfb !important;
+}
+
+.page-card-text-button:hover{
+    text-decoration: underline!important
+}
+
+.page-card-bottom{
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.new-question-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.page-card-bottom-reader{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #ff4c4c;
+    background-color: #ffecec;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.page-card-bottom-reader:hover{
+    color: #ffffff;
+    background-color: #ff6c6c;
+<<<<<<< HEAD
+}
+
+.page-card-bottom-edit{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 20px;
+    font-size: 15px;
+    color: #ff4c4c;
+    background-color: #ffecec;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.page-card-bottom-edit:hover{
+    color: #ffffff;
+    background-color: #ff6c6c;
+}
+
+.page-card-bottom-reader-already{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff6c6c;
+    border-radius: 15px;
+    cursor: pointer;
+=======
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+}
+
+.page-card-bottom-reader-already{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+<<<<<<< HEAD
+    color: #8590a6;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.page-card-bottom-item:hover{
+    color: #656d7d;
+}
+
+.article-card{
+    position: relative;
+    width: 680px;
+    margin-bottom: 16px;
+    padding: 15px 20px 0 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+}
+
+.article-top{
+    position: absolute;
+    top: -77px;
+}
+
+.article-card-user-content{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.article-user-picture{
+    height: 32px;
+    width: 32px;
+    border-radius: 50% 50%;
+    border: 1px solid #ff5c5c;
+}
+
+.article-user-description{
+    font-weight: normal;
+    color: #646464;
+}
+
+.article-description{
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.article-shadow{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: linear-gradient(to bottom,  rgba(255,255,255,0),rgba(255,255,255,0.8), rgba(255,255,255,1));
+}
+
+.article-shadow-text{
+    line-height: 150px;
+    color: #1f8dfb;
+    cursor: pointer;
+}
+
+.article-shadow-text:hover{
+    text-decoration: underline!important
+}
+
+.article-star{
+    font-size: 14px;
+    color: #8590a6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.article-time{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #8590a6;
+}
+
+.article-card-bottom{
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+=======
+    color: #ffffff;
+    background-color: #ff6c6c;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.page-card-bottom-item{
+    display: inline-block;
+    font-size: 14px;
+    color: #8590a6;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.page-card-bottom-item:hover{
+    color: #656d7d;
+}
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81

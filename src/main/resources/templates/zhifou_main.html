@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="no-referrer"/>
+<<<<<<< HEAD
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.ico"/>
+    <!--    使用iconfont-->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1258904_qbsqtzsqgz.css">
+=======
+
+    <!--    使用iconfont-->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1258904_85gbocda434.css">
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/public.css">
+    <link rel="stylesheet" href="../static/css/main_page.css">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>知否——有问题上知否</title>
+</head>
+<<<<<<< HEAD
+<body onload="checkPageCookie();changePersonalImage();getInformation('firstLoad')" id="body">
+=======
+<body onload="getInformation('firstLoad')" id="body">
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+<div>
+    <nav class="navbar fixed-top">
+        <div class="page-container-header">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <div class="page-header-logo">
+                        <img src="../static/img/QA.png" id="QA-img" width="114" height="30" alt="">
+                    </div>
+<<<<<<< HEAD
+                    <div class="d-inline-block" style="vertical-align: middle">
+                        <div onclick="window.location.href = window.location.origin +'/zhifou/user/main'" class="page-header-nav-top">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">首页</span>
+                            </div>
+                        </div>
+                        <div onclick="window.location.href = window.location.origin +'/zhifou/user/article'" class="page-header-nav">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">文章</span>
+                            </div>
+                        </div>
+                        <div class="page-header-nav">
+<!--                            onclick="window.location.href = window.location.origin +'/zhifou/user/hotSpot'"-->
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">发现</span>
+                            </div>
+                        </div>
+=======
+
+                    <div class="d-inline-block" style="vertical-align: middle">
+                        <a href="zhifou_main.html" class="page-header-nav-top">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">首页</span>
+                            </div>
+                        </a>
+                        <a href="zhifou_discovery.html" class="page-header-nav">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">发现</span>
+                            </div>
+                        </a>
+                        <a href="zhifou_specialColumn.html" class="page-header-nav">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">专栏</span>
+                            </div>
+                        </a>
+                        <a href="zhifou_more.html" class="page-header-nav">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <div style="font-size: 16px">
+                                    <span>更多 </span><span class="iconfont icon-xia"></span>
+                                </div>
+                            </div>
+                        </a>
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                    </div>
+                </div>
+                <div>
+                    <div class="page-header-search-content">
+                        <div class="page-header-nav-search" >
+                            <div class="page-header-search-bg" id="search-bg">
+                                <div class="page-header-search-input">
+                                    <input type="text" class="search-input-content" onclick="displayWholeSearch('click')" id="search-input" onblur="displayWholeSearch('close')">
+                                    <div class="search-button" onclick="pageSearch()">
+                                        <span class="iconfont icon-sousuo" style="font-size: 18px"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-header-nav-button" data-toggle="modal" data-target="#questionModal"
+                            style="border-top: 4px solid transparent;
+                                border-left: 1px solid transparent;border-right: 1px solid transparent;">
+                        <div style="display: flex;align-items: center;height: 100%">
+                            <div style="font-size: 16px">
+                                <span class="iconfont icon-wenhao"></span>
+                                <span>提问</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-header-nav-button" onclick="displayHeaderTip('dark-night','pageHeaderDark')" id="pageHeaderDark"
+                         style="border-top: 4px solid transparent;
+                     border-left: 1px solid transparent;border-right: 1px solid transparent;">
+                        <div style="display: flex;align-items: center;height: 100%">
+                            <span class="iconfont icon-moonbyueliang" style="font-size: 16px;padding-bottom: 2px"></span>
+                        </div>
+                    </div>
+                    <div class="page-header-nav-button" onclick="displayHeaderTip('personalInfo','pageHeaderInfo')" id="pageHeaderInfo"
+                         style="border-top: 4px solid transparent;
+                     border-left: 1px solid transparent;border-right: 1px solid transparent;">
+                        <div style="display: flex;align-items: center;height: 100%">
+<<<<<<< HEAD
+                            <img style="display: none;border-radius: 50% 50%" width="35" height="35" id="yonghu-picture">
+=======
+<!--                            <img src="../static/img/知否用户.jpg" width="40" height="40" id="yonghu-picture">-->
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                            <span class="iconfont icon-yonghu2" style="font-size: 20px;padding-bottom: 2px" id="yonghu-icon"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+<!--                点击用户头像的控件-->
+                <div class="page-header-personalInfo" style="display: none" id="personalInfo">
+                    <div style="padding-top: 10px;margin-top: -5px">
+                        <div class="page-personalInfo" style="margin: 0 auto">
+<<<<<<< HEAD
+                            <div class="page-personalInfo-items" onclick="window.location.href = window.location.origin +'/zhifou/user/personalPage?type=dynamic'">
+=======
+                            <div class="page-personalInfo-items">
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-yonghu" style="line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px">我的主页</span>
+                                </div>
+                            </div>
+<<<<<<< HEAD
+                            <div class="page-personalInfo-items" onclick="window.location.href = window.location.origin +'/zhifou/user/setting' ">
+=======
+                            <div class="page-personalInfo-items" onclick="window.location.href = window.location.origin +'/user/setting' ">
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-icon_set_up" style="line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px">设置</span>
+                                </div>
+                            </div>
+<<<<<<< HEAD
+                            <div class="page-personalInfo-items" onclick="quitWeb()">
+=======
+                            <div class="page-personalInfo-items">
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-tuichu" style="line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px">退出</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-header-personalInfo" style="display: none" id="dark-night">
+                    <div style="padding-top: 10px;margin-top: -5px;margin-right: 10px">
+                        <div class="page-personalInfo" style="margin: 0 auto">
+                            <div class="page-dark-night-item">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-moonbyueliang" style="font-size: 14px;line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px;font-size: 14px">夜间模式</span>
+                                </div>
+                            </div>
+                            <div class="page-dark-night-item">
+                                <button type="button" class="dark-night-button" onclick="changeWebState('colorStyle','open')" style="width: 50%;border-radius: 20px 0 0 20px" id="open-dark">开</button>
+                                <button type="button" class="dark-night-button-press" onclick="changeWebState('colorStyle','close')" style="width: 50%;border-radius: 0 20px 20px 0" id="close-dark">关</button>
+                            </div>
+                            <hr style="margin: 10px 0!important;">
+                            <div class="page-dark-night-item">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-ziti" style="font-size: 14px;line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px;font-size: 14px">字体切换</span>
+                                </div>
+                            </div>
+                            <div class="page-dark-night-item">
+                                <button type="button" class="dark-night-button" onclick="changeWebState('fontStyle','songTi')" style="width: 50%;border-radius: 20px 0 0 20px" id="songTiButton">宋体</button>
+                                <button type="button" class="dark-night-button-press" onclick="changeWebState('fontStyle','heiTi')" style="width: 50%;border-radius: 0 20px 20px 0" id="heiTiButton">黑体</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--导航栏下方主题内容-->
+<!--card-columns-->
+<!--这里用bootstrap4的d-flex 和flex-fill解决左边div定宽度，右边div自适应扩充宽度问题-->
+<div class="page-container" style="padding-top: 82px">
+    <div class="d-flex">
+        <div class="page-card-columns" >
+            <div>
+                <button class="page-header-nav-press" onclick="getInformation('firstLoad')" style="outline: none" id="nav_recommend">
+                    <span>首页推荐</span>
+                </button>
+                <button class="page-header-nav-under" onclick="navOperation('displayNewQuestions',null)" style="outline: none" id="nav_questions">
+                    <span>最新提问</span>
+                </button>
+                <button class="page-header-nav-under" onclick="navOperation('displayMyFocus',null)" style="outline: none" id="nav_focus">
+                    <span>我的关注</span>
+                </button>
+            </div>
+            <div style="padding-top: 16px">
+                <div class="useToInsert" style="width: 680px"></div>
+            </div>
+        </div>
+
+        <!--        遗留问题右边宽度，自适应问题, flex-fill无效了-->
+        <div class="page-right-part" id="pageRightPart" style="display: none">
+            <div style="width: 230px">
+                <div style="text-align: center">
+                    <div class="page-header-nav-right" onclick="window.open(window.location.origin +'/zhifou/user/writeArticle')">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-shuxie" style="font-size: 22px;line-height: 22px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle" style="font-weight: bold">
+                            <span>写文章</span>
+                        </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                    </div>
+                    <div class="page-header-nav-right">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-dengpao" style="font-size: 22px;line-height: 22px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle" style="font-weight: bold">
+                            <span>写想法</span>
+                        </div>
+                    </div>
+                </div>
+<<<<<<< HEAD
+            </div>
+            <div id="page-suggested-read-container">
+            </div>
+            <div class="page-right-card-info" style="position: sticky;top: 77px;width: 230px">
+                <div class="page-right-card-info-items" onclick="window.open(window.location.origin+'/zhifou/user/personalPage?type=dynamic')">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-dongtai" style="font-size: 18px;line-height: 18px"></span>
+                    </div>
+                    <span style="padding-left: 5px">我的动态</span>
+                </div>
+                <div class="page-right-card-info-items" onclick="window.open(window.location.origin+'/zhifou/user/personalPage?type=looking')">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-reading" style="font-size: 18px;line-height: 18px"></span>
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <span style="padding-left: 5px">我的在看</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="page-right-card-info-items" onclick="window.open(window.location.origin+'/zhifou/user/personalPage?type=questions')">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-wenhao" style="font-size: 16px;line-height: 18px"></span>
+                    </div>
+                    <span style="padding-left: 5px">我的提问</span>
+                </div>
+                <div class="page-right-card-info-items" onclick="window.open(window.location.origin+'/zhifou/user/personalPage?type=answers')">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-qinziAPPtubiao-" style="font-size: 16px;line-height: 18px"></span>
+                    </div>
+                    <span style="padding-left: 5px">我的回答</span>
+                </div>
+                <div class="page-right-card-info-items" onclick="window.open(window.location.origin+'/zhifou/user/personalPage?type=articles')">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-shuxie" style="font-size: 18px;line-height: 18px"></span>
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <span style="padding-left: 5px">我的文章</span>
+                    </div>
+                </div>
+                <div class="page-right-card-info-items" onclick="window.open(window.location.origin+'/zhifou/user/personalPage?type=collection')">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-shoucang" style="line-height: 16px"></span>
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <span style="padding-left: 5px">我的收藏</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="page-right-card-info-items">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-lishijilu" style="line-height: 16px"></span>
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <span style="padding-left: 5px">我的足迹</span>
+                    </div>
+                </div>
+                <div class="page-right-card-info-items">
+                    <div class="d-inline-block align-middle">
+                        <span class="iconfont icon-sousuo" style="line-height: 16px"></span>
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <span style="padding-left: 5px">我的搜索历史</span>
+=======
+                <div class="page-right-card-info">
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-tongzhi" style="line-height: 16px"></span>
+                        </div>
+                        <span style="padding-left: 5px">查看全部通知</span>
+                    </div>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-xiaoxi" style="line-height: 16px"></span>
+                        </div>
+                        <span style="padding-left: 5px">我的私信</span>
+                    </div>
+                    <hr>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-reading" style="font-size: 18px;line-height: 18px"></span>
+                        </div>
+                        <span style="padding-left: 5px">我的在看</span>
+                    </div>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-shoucang" style="font-size: 18px;line-height: 18px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle">
+                            <span style="padding-left: 5px">我收藏的问题</span>
+                        </div>
+                    </div>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-fenxiang" style="font-size: 18px;line-height: 18px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle">
+                            <span style="padding-left: 5px">我的分享</span>
+                        </div>
+                    </div>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-pinglun" style="line-height: 16px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle">
+                            <span style="padding-left: 5px">我的评论</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-lishijilu" style="line-height: 16px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle">
+                            <span style="padding-left: 5px">我的足迹</span>
+                        </div>
+                    </div>
+                    <div class="page-right-card-info-items">
+                        <div class="d-inline-block align-middle">
+                            <span class="iconfont icon-sousuo" style="line-height: 16px"></span>
+                        </div>
+                        <div class="d-inline-block align-middle">
+                            <span style="padding-left: 5px">我的搜索历史</span>
+                        </div>
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--提问的控件-->
+<div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 15px 35px">
+                <div class="create-question-header">
+                    <div class="d-inline-block align-bottom">
+                        <img src="../static/img/QA.png" width="95" height="25px" class="rounded mr-2" alt="...">
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <span class="create-question-title">——有问题，就上知否</span>
+                    </div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="outline: none">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div style="padding:10px">
+                    <textarea rows="2" class="question-input" id="create-question-title" maxlength="50" placeholder="写下你的问题，准确地描述问题更容易得到解答:"></textarea>
+                </div>
+                <div style="padding:10px">
+                    <textarea rows="4" class="question-input" id="create-question-description" maxlength="160" placeholder="输入问题背景、条件等详细信息（选填）"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input type="button" class="question-submit" onclick="questionCreate()" value="提交">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--评论的控件-->
+<div class="modal fade" id="displayComment" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable comment-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <div class="d-inline-block align-middle">
+                        <span id="commentNumber"></span><span>条评论</span>
+<<<<<<< HEAD
+=======
+                    </div>
+                    <div class="d-inline-block align-middle">
+                        <button type="button" class="comment-sort">
+                            <span class="iconfont icon-paixuti-normal"></span><span>&nbsp;切换为按时间排序</span>
+                        </button>
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+                    </div>
+<!--                    <div class="d-inline-block align-middle">-->
+<!--                        <button type="button" class="comment-sort">-->
+<!--                            <span class="iconfont icon-paixuti-normal"></span><span>&nbsp;切换为按时间排序</span>-->
+<!--                        </button>-->
+<!--                    </div>-->
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding-top: 0!important;padding-bottom: 0!important;" id="modal-body">
+                <div id="insertComments"></div>
+            </div>
+            <div class="modal-footer">
+                <div style="margin: 5px auto" class="create-comment-content">
+                    <input type="text" class="create-comment-input" maxlength="160" id="create-comment-input" placeholder="写下你的评论...">
+                    <div class="create-comment-submit" onclick="createTheComment()">提交</div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding-top: 0!important;padding-bottom: 0!important;" id="modal-body">
+                <div id="insertComments"></div>
+            </div>
+            <div class="modal-footer">
+                <div style="margin: 5px auto" class="create-comment-content">
+                    <input type="text" class="create-comment-input" maxlength="160" id="create-comment-input" placeholder="写下你的评论...">
+                    <div class="create-comment-submit" onclick="createTheComment()">提交</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="position: fixed;top: 65px;height: 0;width: 100%;z-index: 9999">
+    <div class="toast" role="alert" id="alertModal" aria-live="assertive" aria-atomic="true" data-delay="3500" style="min-width: 250px;border-radius: 10px">
+        <div class="toast-header d-flex justify-content-between align-items-center" style="padding: 4px 20px">
+            <div class="d-inline-block bottom">
+                <img src="../static/img/QA.png" width="57" height="15px" class="rounded mr-2" alt="...">
+            </div>
+            <div class="d-inline-block align-middle">
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true" class="page-toast-close">&times;</span>
+                </button>
+            </div>
+        </div>
+        <div class="toast-body page-toast-text" id="content">
+        </div>
+    </div>
+</div>
+
+<<<<<<< HEAD
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="position: fixed;top: 65px;height: 0;width: 100%;z-index: 9999">
+    <div class="toast" role="alert" id="alertModal" aria-live="assertive" aria-atomic="true" data-delay="3500" style="min-width: 250px;border-radius: 10px">
+        <div class="toast-header d-flex justify-content-between align-items-center" style="padding: 4px 20px">
+            <div class="d-inline-block bottom">
+                <img src="../static/img/QA.png" width="57" height="15px" class="rounded mr-2" alt="...">
+            </div>
+            <div class="d-inline-block align-middle">
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true" class="page-toast-close">&times;</span>
+                </button>
+            </div>
+        </div>
+        <div class="toast-body page-toast-text" id="content">
+        </div>
+    </div>
+</div>
+
+=======
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+<script type="text/javascript" src="../static/script/public.js"></script>
+<script type="text/javascript" src="../static/script/main_page.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

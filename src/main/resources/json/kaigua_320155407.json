@@ -1,0 +1,558 @@
+{
+    "title": "既然有些人喜欢开挂，为啥不开发一款网游，提供编程接口，允许玩家自行用各种软件，同时允许计算机参与计算？",
+    "questionDescription": "比如，敌方开枪，由玩家设定扫描区域及间隔，同时服务器返回扫描区域内的物质，由计算机运算区分出是否是子弹，及时提醒玩家，或者自动计算躲避路径，并及时躲避，可以扫描出敌方位置以及移动速度，计算弹道什么的，或者双方纯拼算力，参考超神学院，诸天降临(gay伦对饕餮王的那一段)，这样，大家都考虑着去优化算法了。也就没心思去搞挂了",
+    "questionFollower": 4663,
+    "questionBrowser": 3772372,
+    "answers": [
+        {
+            "userNickname": "知乎用户",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 4100,
+            "answerDescription": "<p>\n 真有这种游戏啊。。。\n</p>\n<p>\n 《Screeps》\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-fc5505479e20813e4f2b6d1879faf374_hd.jpg' width='640'>\n \n \n\n<p>\n steam链接：\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//store.steampowered.com/app/464350/Screeps/' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://\n  </span>\n  <span class='visible'>\n   store.steampowered.com/\n  </span>\n  <span class='invisible'>\n   app/464350/Screeps/\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n 有想要挑战一下的可以看这个live demo，不需要注册就可以立刻试玩：\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//screeps.com/a/%23%21/sim' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://\n  </span>\n  <span class='visible'>\n   screeps.com/a/#\n  </span>\n  <span class='invisible'>\n   !/sim\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n 游戏的介绍：Screeps is an open source MMO RTS sandbox game for programming enthusiasts, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operates 24/7 in the single persistent world filled by other players on par with you.\n</p>\n<p>\n 介绍的翻译：Screeps是一个为代码变态(划掉)爱好者设计的开源的MMO RTS（大规模多人在线即时战略）游戏。这个游戏的核心机制就是来为你控制的单位写AI。你可以用JavaScript来控制你殖民地（里的一切），并且这些内容7*24小时运行的，并且充满其他玩家来与你对抗。\n</p>\n<p>\n 说白了就是给你提供一个JavaScript的接口，用来写一个“AI”来跟其他玩家对抗。可以简单的基于规则，也可以写有限状态自动机，也可以写增强学习之类的agent ai（但性能其实很受限）。\n</p>\n<p>\n 现在这个游戏已经变得巨复杂了。从能源到采集，从防御到进攻策略甚至还有贸易等等等等。。。\n</p>\n<p>\n 这个游戏有多复杂？首先想要入门，游戏是全英文的，除了写code要用纯英文，最重要的是所有的官方文档也都是英文的。你需要通过阅读文档来学习这个游戏的API：\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//docs.screeps.com/architecture.html' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://\n  </span>\n  <span class='visible'>\n   docs.screeps.com/archit\n  </span>\n  <span class='invisible'>\n   ecture.html\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n （这文档一看就是API Reference的风格）\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-15137dc069087e51e030e2d0e13c2bb9_hd.jpg' width='640'>\n \n \n\n<p>\n 文档中包括整个游戏系统的运行逻辑、写code的接口和一大堆内部机制。\n</p>\n<p>\n 当然，还有API References！来来来，请随意体验一下被代码支配的恐惧：\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-1e5696dec3b37083303b660a27f3fe91_hd.jpg' width='640'>\n \n \n\n<p>\n 然后看看大佬开源出来的code：\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//github.com/TooAngel/screeps' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://\n  </span>\n  <span class='visible'>\n   github.com/TooAngel/scr\n  </span>\n  <span class='invisible'>\n   eeps\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n （是的，放在了全球最大宅男/女交友社区）\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-49597aadc1fe02378521f903d716a883_hd.jpg' width='640'>\n \n \n\n<p>\n 这个游戏的收费是花钱买算力(subscription token)。。而游戏中你可以获得算力再出售。所以完全有可能通过写一个巨厉害的code来赚钱……\n</p>\n<p>\n 详细信息建议看steam页面中\n <b>\n  Attack.On.Pika[AFK]\n </b>\n 的评论。。。分析的已经很透彻了\n</p>\n<hr/>\n<p>\n 更：附上tutorial里的第一段代码：\n</p>\n<div class='highlight'>\n <pre><code class='language-js'><span class='nx'>module</span><span class='p'>.</span><span class='nx'>exports</span><span class='p'>.</span><span class='nx'>loop</span> <span class='o'>=</span> <span class='kd'>function</span> <span class='p'>()</span> <span class='p'>{</span>\n    <span class='kd'>var</span> <span class='nx'>creep</span> <span class='o'>=</span> <span class='nx'>Game</span><span class='p'>.</span><span class='nx'>creeps</span><span class='p'>[</span><span class='s1'>'Harvester1'</span><span class='p'>];</span>\n    <span class='kd'>var</span> <span class='nx'>sources</span> <span class='o'>=</span> <span class='nx'>creep</span><span class='p'>.</span><span class='nx'>room</span><span class='p'>.</span><span class='nx'>find</span><span class='p'>(</span><span class='nx'>FIND_SOURCES</span><span class='p'>);</span>\n    <span class='k'>if</span><span class='p'>(</span><span class='nx'>creep</span><span class='p'>.</span><span class='nx'>harvest</span><span class='p'>(</span><span class='nx'>sources</span><span class='p'>[</span><span class='mi'>0</span><span class='p'>])</span> <span class='o'>==</span> <span class='nx'>ERR_NOT_IN_RANGE</span><span class='p'>){</span>\n        <span class='nx'>creep</span><span class='p'>.</span><span class='nx'>moveTo</span><span class='p'>(</span><span class='nx'>sources</span><span class='p'>[</span><span class='mi'>0</span><span class='p'>]);</span>\n    <span class='p'>}</span>\n<span class='p'>}</span>\n</code></pre>\n</div>\n<p>\n 大致的意思是这样的：从场景中找到名为Harvester1的一个creep(既游戏种的一种基本单位)。然后寻找当前房间中的所有source。然后命令creep去harvest 所有source中的第1个source。但这个过程有可能返回值是“ERR_NOT_IN_RANGE”这个错误，说明creep距离source太远了。然后就命令creep moveTO那个source里。然后整个函数永不间断地执行下去。\n</p>\n<p>\n 如此，万里长征第一步搞定了！你得到了一个可以遍历采集资源的creep。但是抵御不了入侵者，也很难最优化效率等等。想要更高端的agent，还是要多烧脑了。\n</p>\n<hr/>\n<p>\n 更：看了一下API，这玩意居然还支持Binary Module。就是说一些要求性能的地方，你可以写个C语言的code然后编译成二进制的library再在JavaScript脚本里调用。\n</p>\n\n \n  <img src='https://pic3.zhimg.com/50/v2-756e4e0376f6223e5116f99521c93d3c_hd.jpg' width='640'>\n \n \n\n<p>\n</p>",
+            "answerLength": 1627,
+            "answerExtraction": " 真有这种游戏啊。。。 《Screeps》 steam链接： https:// store.steampowered.com/ app/464350/Screeps/ 有想要挑战一下的可以看这个live demo，不需要注册就可以立刻试玩： https:// screeps.com/a/# !/sim 游戏的介绍：Sc",
+            "keyWord": [
+                "游戏",
+                "文档",
+                "算力",
+                "开源",
+                "代码"
+            ],
+            "comment": 123
+        },
+        {
+            "userNickname": "子昂",
+            "userDescription": "Histrionic Personality Disorder",
+            "userImageUrl": "https://pic3.zhimg.com/v2-8bcbafef9db02feee890ea8d9eb1eb35_is.jpg",
+            "answerStar": 21214,
+            "answerDescription": "<p>\n 哈哈哈，我玩过一款网游可能符合题主的意思。\n</p>\n<p>\n 预警：本文较长，注意流量。\n</p>\n<p>\n 既然是外挂，提供编程接口就没什么意思啦，允许玩家自行用各种软件这个才是问题的关键。\n</p>\n<p>\n 大概是2014年的时候吧，有时候上下班通勤时间或者厕所蹲坑时间，想找点游戏打发时间，不想玩单机，也不想爆肝玩一些容易耗时耗力的游戏。\n</p>\n<p>\n 然后我就发现了一款\n <b>\n  很弱智很脑残很沙雕\n </b>\n 但是又很魔性的网络游戏。我刷微博的时候看见一个同事在玩，我就跟着点进去开始玩了。我当时玩的是微博小游戏版，游戏名字叫“愚公移山”（PS：我玩的游戏版本目前已经倒闭停止运营了！因此此文所有配图都是在网上搜索，如有版权问题，请联系我删除。）\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-12d5d59f8cb8701c823a2c7d3c34af4a_hd.jpg' width='640'>\n \n \n <figcaption>\n  游戏开始界面\n </figcaption>\n\n<p>\n 现在回想，这游戏仍可以排进我玩过的沙雕网游的top榜之首，游戏很简单，就是点这个茅屋，然后就会造一个小人，（还记得《愚公移山》的课文吗？“子又生孙，孙又生子。子子孙孙无穷匮也! 而山不加增，何苦而不平? ”）这个游戏就是要造小人，然后去移山！！\n</p>\n<p>\n 游戏里面的boss就是山，而且那些山不是叫王屋和太行，策划们给那些山取了一些很脑残的名字，诸如：\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-3b57e5706387133a6aef634f62f6308b_hd.jpg' width='640'>\n \n \n <figcaption>\n  游戏boss之一\n </figcaption>\n\n<p>\n 打boss就是，点击这个山，然后你的子孙数量就会减少一个数值，山的HP数量（血条）也会减少一个数字，然后根据你的子孙数量，和移山的数量，会在游戏里面有一个世界排名，然后里面也会有一个好友排名，会显示你和你的游戏好友的子孙数进行排名。\n</p>\n<p>\n 当然，作为一个网游，它不可避免的也有充值系统，当然沙雕游戏的商店也是很沙雕的，卖的就是一些莫名其妙毫无关联但是让你在游戏里更快生孩子的道具，或者是对好友使用可以给好友避孕的一些道具。\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-8f7fdf467e7f029272dc73c52903e2cf_hd.jpg' width='640'>\n \n \n <figcaption>\n  游戏中的商店\n </figcaption>\n\n<p>\n 游戏中增加生产率的方法有很多，比如升级茅屋变成豪宅，茅屋点一次只能生一个，豪宅点一次可以生十几个；比如增加草丛或克隆人装置等自动生育场景（充值开通或者攻克boss之后的金币道具购买）\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-86b3fe9db8e4a65962534da34fe788c6_hd.jpg' width='640'>\n \n \n\n\n \n  <img src='https://pic4.zhimg.com/50/v2-dec7e9d317be8465815f9b67f9d89fc0_hd.jpg' width='640'>\n \n \n\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 游戏内核就这么简单，接下来就是开始斗法。\n</p>\n<p>\n =======简单分割线========\n</p>\n<p>\n 我开始玩的时候，我那个同事已经是图2那种级别了，子孙67亿，生产速度222万人每秒，击败全球60%的玩家。我想偷偷地超过他，于是悄悄咪咪地开始玩，由于这个游戏只有“点击生娃”这么一个简单的操作，于是我先用了最简单的外挂，按键精灵。\n</p>\n\n \n  <img src='https://pic3.zhimg.com/50/v2-d40fcca37b8396a7ce2328ee8696a39f_hd.jpg' width='640'>\n \n \n <figcaption>\n  鼠标连点器\n </figcaption>\n\n<p>\n 用按键精灵写了一个鼠标连点的软件，然后通过模拟器在闲置电脑上开启游戏，最开始通过大概十分钟的个人玩法，我已经把茅屋升级成了女娲，点一下可以生120个子孙，为了便于后期的统计，我设置成每秒点击100次，也就是一秒钟可以生12000个子孙。那么一分钟就是720000子孙，一小时就是43200000子孙，我挂8小时，就会有3.4亿的子孙。因为前期的boss都很弱鸡，大概几百万子孙就可以移掉那些山，那么一天时间，我就能推到一些boss然后获取金币开通自动生育区！同事的67亿子孙，估计也就几天我就能超越！\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-5b6332a843cf401cf93fc632bd192eee_hd.jpg' width='640'>\n \n \n <figcaption>\n  前期的boss\n </figcaption>\n\n<p>\n 调试完成之后，我心满意足地上班去了，也不敢挤号，看着我同事一本正经地工作的时候，我总是莫名想笑，心想着过几天我的游戏排名就要超过你了！兀自暗爽！\n</p>\n<p>\n 然后我当天下班，飞一般的回家开电脑，打开一看，连点器仍在正常运作，但是我的子孙居然只有1.1亿！卧槽怎么回事，是我的数学不好还是游戏策划的数学不好？我又检查了一下连点器，依然是一秒一百次，一分钟72万，明明过了八小时，为什么只有1.1亿！\n</p>\n<p>\n 我不解地百度，崩溃的发现原来这个游戏还有随机事件，就是会出现一个叫做“智叟”的人物，一下子就按百分比屠掉你的子孙，比例高到15%-30%！！！估计就是官方为了平衡我这种无脑点击挂出的类似验证码事件。\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-ad703813d86a2d61e1e58648816003ab_hd.jpg' width='640'>\n \n \n\n\n \n  <img src='https://pic3.zhimg.com/50/v2-24054cca8404e171df74daa535e6ae65_hd.jpg' width='640'>\n \n \n\n<p>\n 然后这个游戏没有日志记录，被智叟屠了我也看不到是什么时间，也不知道他出现的规律和频率，除了网上搜到的图片，我都不知道他到底长什么样子，更不知道该怎么应对。但是我综合分析以往的游戏套路，应该是他出现之后点击他会触发一些事件，可以驱赶或者打败之类的。于是我守在电脑前大概2个小时，果然出现了智叟，只要在3秒钟之内点击他，就可以把他驱赶走，不然他就会屠杀很多的子孙，我不得不又在连点器原始代码里加上监测智叟出现的代码。\n</p>\n<p>\n 当天晚上，捣鼓了半天，开了几个自动生产场景，自动生育率在每秒四万个，加上连点器，一秒钟可以生52000个子孙，一小时就是1.8亿子孙！！！\n</p>\n<p>\n 睡觉之前再次确认了一下正常运行，明早起来，20亿妥妥的。\n</p>\n<p>\n 果然，第二天一早起来，我的子孙大军已经生到23亿了，然后又是解锁场景，又是升级女娲，自动生育弄成了80万每秒，点击生产也达到了每下1000个，开挂高达每秒10万，加起来也就是90万每秒，和昨天的速度简直不可同日而语，并且我的世界排名已经击败了30%的人！超过同事指日可待！！可能也就是这两天的功夫了！！\n</p>\n<p>\n 有了一天的游戏经验，除了智叟之外我还获得了一个信息：就是在游戏途中升级场景或者道具，会让产出比更高！于是我又下载了一个向日葵远程控制软件，手机控制电脑，在公司蹲坑或者喝水时，就打开看看够不够升级新的道具，然后就顺手升级一波。等到下班的时候，我已经每秒生产率达到了100多万，人口总数也快到了40亿，世界排名也从击败30%到了击败40%多。\n</p>\n<p>\n 同事的游戏似乎没怎么打理，每秒生产率还是两百多万，但是人口总数已然达到了3000亿的级别，这个时候让我不得不感慨计划生育的重要性。\n</p>\n<p>\n 想要超过他，不得不花点功夫，由于我有连点器这个大杀器存在，于是我开始讲究策略，我把点击就能生产的女娲升级升级再升级，虽然越到后面升级需要的道具金币就越多，我又不得不去移山，移山又死掉几亿的子孙，真的体会到愚公移山的精神。总之折腾了一个晚上，我的人口总数变成了只有一千多万，但是我点击一下女娲，可以用生产50000个子孙，然后又优化了一下连点器，让它每秒可以点击140次，这样光是点击的产出率就达到了700万每秒，加上生产场景每秒100多万的产出率，我的子孙以每秒800万的速度繁衍着。生产速度已经达到了我同事的四倍！预计一晚上我的子孙就可以突破3000亿的大关！明天上午，就可以全盘超过我同事！\n</p>\n<p>\n 时间很快就到了我玩这个游戏的第三天上午，我同事5500亿总人口的时候，我已经6000亿了！！我差点就忍不住跟他说了！！但是我压抑住激动的心，硬是等到了下班的点，我的人口数经过一顿操作已经达到了10000亿，也就是一兆！！而我的同事仍然只有6000多亿！！我的世界排名已经击败了70%的用户！！\n</p>\n<p>\n 下班时候我风淡云轻地叫住了他！\n</p>\n<p>\n 我打开手机上的游戏，故作轻松地说：“你是不是也在玩这个游戏？你看看你的排名。”我准备欣喜若狂地收获他大吃一惊的表情，但他并没有特别惊讶，看到之后只是笑着说：“你小子可以啊，我这两天没玩你一下子把我超越了。”\n</p>\n<p>\n 我们顺着聊了一会，然后我又得知他玩游戏的原因，因为他有一个同学，是一个网游重度氪金用户，玩这个沙雕游戏，居然也充值了一千多块钱！！同事为了证明技术比金钱牛逼（或者是证明他同学是个沙雕），就也开始玩这个沙雕游戏！也是想像我一样通过某种外挂手段干过他的同学。而且我同事仅仅只比我早玩两天！！这两天他下班忙着约会没有怎么玩游戏，所以一不小心被我超过了，我们坐电梯下楼越聊越起劲，干脆就去了公司附近的星巴克，他现场给我演示了一下骚操作！\n</p>\n<p>\n 他走的外挂路线是提升自动产出，他觉得连点器什么的太low了，而且效率不高，他说自己一直在攒道具金币买地狱之门，这几天没怎么管，刚好消耗掉一波子孙，可以换两个地狱之门！\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-73a66beeb5ff754dafffd91e6ed48129_hd.jpg' width='640'>\n \n \n\n<p>\n 地狱之门是一个可以一秒钟生产150万子孙的大杀器！！也是游戏里生产率最高的场景！！\n</p>\n<p>\n 他打开了他的ThinkPad，然后麻溜的开出模拟器，兑换两个地狱之门，然后打开了一个辅助软件——变速齿轮！\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-b5dd40c670ebe10a5056834cabf027d9_hd.jpg' width='640'>\n \n \n\n<p>\n 变速齿轮利用HOOK API修改游戏时间的倍速！他用的版本最高可以调速到256倍！也就是现实中每过1秒钟，他的游戏里已经过了256秒！！\n</p>\n<p>\n 他的两个地狱之门就已经可以达到300万人/秒，加上变速齿轮，每秒造人速度居然高达7.68亿！\n</p>\n<p>\n 然后我们喝咖啡聊天那一会儿功夫，他的人口数居然也突破了一兆！！\n</p>\n<p>\n 除了一脸震惊，我还能说什么呢？\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-1e9d3e201c00a19621956c49bf6f02f6_hd.jpg' width='640'>\n \n \n\n<p>\n 然后我们正式踏入了一兆大军，世界排名也达到了击败70%玩家水平！\n</p>\n<p>\n 但是他给我看了一下他那个氪金的同学，让我知道什么叫金钱的力量！！他的同学居然有世界排名！世界排名只有100个人，他的同学就是在52位，击败全球98%的玩家！\n</p>\n<p>\n 据了解，他的同学不会软件，也不会外挂，纯粹是充钱玩，就玩到了这个地步！！\n</p>\n<p>\n 我百思不得其解，因为根据我的研究，正常打boss加自然生产（没有谁会沙雕到一直狂点手机生产吧？），想要到我们现在这个程度（击败70%），可能都需要玩1个月。然后同事告诉我一个令人伤心的真相：因为我们都没充过钱，所以我们看到的商店和充过钱的玩家看到的商店不一样，充过钱之后商店里是可以直接购买地狱之门的，15块钱一个，买了地狱之门之后还送金币，送的金币又可以升级地狱之门，所以我这种辛苦攒金币买的地狱之门一秒只能生150万个子孙，但是我同学氪金买的地狱之门是这样的↓\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-81ad8ce3b89181832a6ba6cf792facfd_hd.jpg' width='640'>\n \n \n\n<p>\n WTF！\n</p>\n<p>\n 果然免费玩家和收费玩家玩的不是一个游戏！原来我们看到的商店都不一样！！我的商店里还有很多的问号，我以为是到了某个级别才能解锁，原来是要充钱！！\n</p>\n<p>\n 最让人生气的是，氪金玩家还可以买几种道具，它们分别是：+10%，+20%，+50%\n</p>\n<p>\n 就是字面意思，你要有10亿人口，买一个+50%，瞬间变15亿！\n</p>\n<p>\n 可气的是，这些道具只要几块钱（1-3块钱左右）\n</p>\n<p>\n 然后充了会员还是月卡啥的玩家，每天还有一次6块钱子孙翻倍的机会！！5000亿瞬间变1兆！\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-ec352333d66794d3f31a2a010f5e2b2c_hd.jpg' width='640'>\n \n \n\n<p>\n 而且没充钱的玩家只能遇到智叟来屠杀，充了钱的玩家随机事件居然是：天空突然经过哈雷彗星，你银行系以内的子孙数量翻倍！\n</p>\n<p>\n 同事的同学就这么无脑氪金，各种道具各种点各种付款，就这么硬生生氪了一千多，到了世界排行榜的前100！榜上有名！！\n</p>\n<p>\n 我们要给平民玩家涨个脸，我们也要进榜！我们要证明技术比金钱牛逼！我们结合了我俩的骚操作，研究出了后台双线程操作，一边疯狂连点，一边变速齿轮自然生产，就这种疯狂的生产速度，居然还是不及排行榜上大神的生产速度，top100的大神们人口基数太大了，计算单位都不是一个量级的，我们爬天梯爬得好辛苦。游戏第六天的时候，到了一个阶段，所有能获取金币的渠道都打完了，场景和女娲都没办法再升级，我们的产值变成固定的1秒220亿，世界排名变成了击败90%的玩家！\n</p>\n<p>\n 可以说是瓶颈期了，并且随着排名的提升，居然又多了一种玩法，就是你可以去掠夺其他玩家的人口，然后玩家会有闪电，可以打击前来掠夺的人，然后就会击落侵略者的一些人口数变成自己的人口数，但是闪电每一个都有冷却时间（用完了可以拿金币买），有时候掠夺的人来得多了，后面只能被掠走一些人口。\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-4f0af57b704104488d518d966a380516_hd.jpg' width='640'>\n \n \n\n<p>\n 我和同事研究中发现，这个游戏的安全机制（反外挂机制）可以说几乎没有，这个闪电很快就会用完但是很慢才能冷却，于是我们又用了新的外挂手段：wpe封包。\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-f43f720953d2eaafa33705af5cfb4d1c_hd.jpg' width='640'>\n \n \n\n<p>\n 我们设置了闪电的冷却时间，将数据包中的30分钟冷却设置成1秒，这样我们就一直有闪电，所有掠夺者，一个不留全部干倒！真正实现了朋友来了有好酒，敌人来了有猎枪！\n</p>\n<p>\n 然而一天劈死几百个侵略者，我们的战利品——那些增加的子孙们，居然只让我们的世界排名提升了1%。\n</p>\n<p>\n 但是这个契机我们灵机一动，可以刷CD时间，为什么我们不刷金币呢？\n</p>\n<p>\n 这里值得一提的是，到后期干掉一个boss会给几百个金币，在所有百分比道具里面，+10%的道具是可以花1500金币购买的！\n</p>\n<p>\n 但是我们目前范围内已经无boss可杀，没有获取金币的渠道，后来还是同事聪明，10金币买了商店里一个最便宜的道具，抓到数据包的数据之后，把金币数量的减法改成加法，然后封包发送，结果成功了！我们金币增加了10金币！\n</p>\n<p>\n 然后开始刷金之路，一路刷到999999999999个金币，到了游戏金币栏上限。\n</p>\n<p>\n 虽然免费玩家没有+20%，+50%和+100%(翻倍)\n</p>\n<p>\n 但这个+10% 对于开挂玩家来说，已经够用了！\n</p>\n<p>\n 然后我们的连点器变成了连点+10%，在我们已有的人口基数下，可以说是涨幅是一个天文数字了！全服第一指日可待！\n</p>\n<p>\n 玩这个游戏的第九天：\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-4b754ae540daa3db6686b1d4206dcf60_hd.jpg' width='640'>\n \n \n\n\n \n  <img src='https://pic4.zhimg.com/50/v2-89f0b63ba3cc371318a014f7bc15b74c_hd.jpg' width='640'>\n \n \n\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 终于到了世界排行榜的第一，第二就是我的同事，我们人口数差不多，只要少抓一个智叟，就能轮流坐第一。\n</p>\n<p>\n 拿到排行榜第一之后，这个游戏开始变得索然无味。同事也赶紧抽了个时间去和他的氪金同学嘚瑟，结果氪金同学说了这么一段话：\n</p>\n<p>\n <b>\n  像我这样的充钱玩家，不是为了充钱而充钱，其实就是想打赏一下做游戏的研发策划人员，其次才是图一个游戏里的便捷，像我这样的人才是一个游戏开发出来，生存下去的原动力！你们这些开外挂开辅助不择手段达到目的的人，简直是游戏败类！！！\n </b>\n</p>\n<p>\n 他同学的一番话真的是震耳发聩如雷贯耳，我和同事都羞愧地低下了头。不过事后氪金同学从技术角度了解了一下我们的操作方式，然后抱着学习的目的刷到了世界第三。\n</p>\n<p>\n 最后坚决抵制外挂行为，呼吁大家用钱支持自己喜欢的游戏。\n</p>\n<p>\n =====================\n</p>\n<p>\n 备注：本故事纯属虚构，如有雷同实属巧合。本人不为故事中行为和语言承担任何道德上的谴责或法律上的责任。\n</p>\n<p>\n</p>\n<p>\n</p>",
+            "answerLength": 5271,
+            "answerExtraction": " 哈哈哈，我玩过一款网游可能符合题主的意思。 预警：本文较长，注意流量。 既然是外挂，提供编程接口就没什么意思啦，允许玩家自行用各种软件这个才是问题的关键。 大概是2014年的时候吧，有时候上下班通勤时间或者厕所蹲坑时间，想找点游戏打发时间，不想玩单机，也不想爆肝玩一些容易耗时耗力的游戏。 然后我就发现了一款 很弱智很",
+            "keyWord": [
+                "游戏",
+                "子孙",
+                "金币",
+                "玩家",
+                "同事"
+            ],
+            "comment": 1057
+        },
+        {
+            "userNickname": "云舒",
+            "userDescription": "默安科技联合创始人兼CTO，著名网络安全研究人员",
+            "userImageUrl": "https://pic1.zhimg.com/v2-ac71d046d7c4dab9dfee27b0f2a87254_is.jpg",
+            "answerStar": 2754,
+            "answerDescription": "<p>\n 我们有个黑客游戏，岂止是允许写外挂？而是不会写代码没法玩。\n</p>\n<p>\n 黑客大逃杀：一个服务器，每人一个root权限账号。然后写个程序运行，杀掉所有其他人的程序，同时保护自己的程序不死。活到最后的赢。\n</p>\n<p>\n 你们会想玩不…\n</p>",
+            "answerLength": 100,
+            "answerExtraction": " 我们有个黑客游戏，岂止是允许写外挂？而是不会写代码没法玩。 黑客大逃杀：一个服务器，每人一个root权限账号。然后写个程序运行，杀掉所有其他人的程序，同时保护自己的程序不死。活到最后的赢。 你们会想玩不… ",
+            "keyWord": [
+                "黑客",
+                "程序",
+                "程序运行",
+                "大逃杀",
+                "外挂"
+            ],
+            "comment": 310
+        },
+        {
+            "userNickname": "珂字辈",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/v2-18ff9cbff40e48037f4556bcce90bc2e_is.jpg",
+            "answerStar": 553,
+            "answerDescription": "<p>\n 虽然不是完全符合题主的要求，但这两款游戏，一定程度上形成了一个“开挂”的小圈子，各国作者都在研究如何更加优美，更加奔放的“开挂”。而且后者对于外挂的研究深度，一定程度诠释了外挂的最终形态。\n</p>\n<p>\n 第一款游戏是暗黑破坏神2。\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-fba83438307e93453444abfbcd65419b_hd.jpg' width='640'>\n \n \n <figcaption>\n  无线电镇楼\n </figcaption>\n\n<p>\n 暗黑破坏神2大家可能都玩过，一部分人的记忆停留在血乌都瑞尔上，硬核点的玩家可能还记得build各种char。但能觉得这款游戏能跟开挂扯上关系的，无非也就是hackmap，大箱子插件，深入点可能还研究过ATMA或者UdieToo。\n</p>\n<p>\n 但这个游戏有一种小众而独特的玩法，叫做\n <b>\n  硬血\n </b>\n 。\n</p>\n<p>\n 硬血就是修改暗黑2的人物存档，d2s文件，不涉及MPQ，dll文件的修改，使其可以进入任意暗黑2的战网房间内，两个人进行PVP。因为相比于正常存档，硬血人物是完全打不死的存在，所以起名硬血。\n</p>\n<p>\n 硬血玩法是硬血人物对抗硬血人物，不像传统单机游戏一样是外挂欺负AI，也不像传统网游一样是外挂欺负正常玩家。所以如何修改成一个好的硬血人物存档，有着非常深刻的讲究，其中运用了非常多的暗黑2基础游戏机制，需要大量时间去钻研。\n</p>\n<p>\n 硬血人物图片\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-c116cb3fdd95320b27d47e1e7727c6c2_hd.jpg' width='640'>\n \n \n\n\n \n  <img src='https://pic1.zhimg.com/50/v2-54694d882af16fc2aab10723a465889b_hd.jpg' width='640'>\n \n \n\n<p>\n 硬血科普贴：\n</p>\n<p>\n <a class=' wrap external' href='https://link.zhihu.com/?target=https%3A//tieba.baidu.com/p/2519890152%3Fsee_lz%3D1' rel='nofollow noreferrer' target='_blank'>\n  【图片】｛申精｝玩暗黑的这些年，玩硬血的这些年……【暗黑破坏神吧】_百度贴\n </a>\n</p>\n<p>\n <a class=' wrap external' href='https://link.zhihu.com/?target=https%3A//tieba.baidu.com/p/5713879476%3Fsee_lz%3D1' rel='nofollow noreferrer' target='_blank'>\n  浅谈对硬血的理解【暗黑破坏神吧】_百度贴吧\n </a>\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 第二款游戏是mugen。\n</p>\n<p>\n mugen是一个格斗游戏引擎，最经常拿来做同人格斗，详情请见我的科普\n</p>\n<p>\n <a class='internal' href='https://www.zhihu.com/question/48479765/answer/162278665'>\n  mugen到底是什么，怎么以最正确的姿势入门？\n </a>\n</p>\n<p>\n 格斗游戏中，被讨论的最多的就是人物的强度，绝大部分格斗游戏，都被玩家严格的区分了人物等级，S-C不等。甚至更多的人还在跨作品比较人物强度，比如KOF97中的大蛇和KOF2001的伊格尼兹到底谁厉害，而mugen就为这种跨作品PK提供了平台。\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-39546ff5e7bf1dcafb0decbc3a9b812b_hd.jpg' width='640'>\n \n \n\n<p>\n 再加上中期mugen的AI作者的崛起，本来傻傻的任人欺负的普通人物，被赋予了强大的AI，于是mugen玩家们不再去手操控制人物，而是观战让AI打AI，于是你在B站上看到了各种各样关公战秦琼的杯赛。\n</p>\n<p>\n 我的入门杯赛：强中-凶中略有节操大乱斗\n</p>\n<p>\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/av215112' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://www.\n  </span>\n  <span class='visible'>\n   bilibili.com/video/av21\n  </span>\n  <span class='invisible'>\n   5112\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n 开启拳皇时代的杯赛：拳皇世界\n</p>\n<p>\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/av780682' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://www.\n  </span>\n  <span class='visible'>\n   bilibili.com/video/av78\n  </span>\n  <span class='invisible'>\n   0682\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n 既然人物-AI都是各国作者制作的，那么mugen人物就免不了被加上各种私货，比如制作一个超高防御超高攻击时刻全屏攻击的大蛇，这样的人物应该就是mugen\n <b>\n  凶恶\n </b>\n 玩法的起点。\n</p>\n<p>\n mugen中的凶恶技术，是各个时代中喜爱凶恶玩法的作者，对于制作高强度攻击面，和高强度防御面的汇总。由于喜欢凶恶的作者和观众非常多，甚至达到和普通玩家分庭抗礼的存在。即使到现在，mugen传播在外的名声最大的mugen角色，也是一个凶恶人物——祸灵梦。\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-763d7ca0208c07d4a0fa755dc6b17653_hd.jpg' width='640'>\n \n \n\n<p>\n mugen有着非常严格的分级制度，纸并强凶狂神，强上凶下的等级差不多就是一个格斗游戏的顶尖玩家操作非BOSS S级角色的水平，而到了狂中往往存在各种回血脱离，已经是人类手操正常角色战胜不了的存在。到了神下之后，格斗游戏的表现力都趋近于无，你来我往之间只是画面和音效的演出效果，更多的是后台代码之间的战斗，神级角色们搭载了各种各样的凶恶技术，这些凶恶技术积累于日本作者和中国作者，所以有着各种各样的中二名称。比如即死，OTHK，混线，超即死，永续毒，毒，死宣，强制死宣，即死返，贯通炮，邪眼杀手，亲变更，NOKO。每一种称呼，背后都有对应的一项技术，这些技术往往针对了mugen中各种判定和BUG，来让系统判定自己胜利。好的凶恶角色往往搭载了更多，更通用的凶恶技术，也有着针对某些角色钢板防御面的特殊对策。\n</p>\n<p>\n 凶恶技术：\n <a class=' wrap external' href='https://link.zhihu.com/?target=https%3A//qxmugen.com/portal/63' rel='nofollow noreferrer' target='_blank'>\n  即死 | 千寻Mugen\n </a>\n</p>\n<p>\n 凶恶技术还分攻击面和防御面，凶恶作者更加追求攻击面，在神级的顶点神最上的战争中，打掉多少高防御面的靶子，就是攻击面的体现。\n</p>\n<p>\n 2018神最上评测\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/av29070493' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://www.\n  </span>\n  <span class='visible'>\n   bilibili.com/video/av29\n  </span>\n  <span class='invisible'>\n   070493\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n 然而神最上就是mugen的顶点了吗？并不是。随着mugen作者的深入研究，更加凶恶的技术出现了。那就是针对mugen内存地址，汇编代码，栈溢出的隔离技术，包括本体亲捏造，%n，%f，statedef溢出，def溢出，这些技术应用往往已经不局限于mugen中的胜负了，可以直接注入汇编代码，修改mugen源代码，调用dll，调用windows的API执行任意行为。这种人物之间的攻击，往往在游戏战斗之前就开始了，在选择人物甚至载入人物的时候就完成了攻击。所以出现了打开浏览器的人物，删除所有人物的人物，听歌的人物。所以有个mugen笑话就是病毒人物。\n</p>\n<p>\n 选择即关机或者重启的两个人物\n</p>\n\n \n  <img src='https://pic4.zhimg.com/50/v2-ea4614da3862596247727660dc26128e_hd.jpg' width='640'>\n \n \n\n<p>\n 选择之后按E，可以打开作者博客的人物（调用explorer.exe被360报毒了）\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-9c5e2fb016a5df0bb8b3b121a5bdced6_hd.jpg' width='640'>\n \n \n\n<p>\n 隔离技术：\n <a class=' wrap external' href='https://link.zhihu.com/?target=https%3A//tieba.baidu.com/p/5092155802%3Fsee_lz%3D1' rel='nofollow noreferrer' target='_blank'>\n  截止目前各种隔离技术一览【mugen吧】_百度贴吧\n </a>\n</p>\n<p>\n 这里必须要提到一个中国作者，ydccdy2010，通称遥远，几乎大部分的隔离新技术都是他提出来的，是mugen凶恶历史上最重要的作者。\n</p>\n<p>\n 这些新技术的出现，让mugen人物强度再次提升了一个档次，甚至让原本的神级人物不带他们玩了，神最上评测中不允许出现隔离技术。\n</p>\n<p>\n 论外·攻守对决：\n <a class=' external' href='https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/av9291548' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   https://www.\n  </span>\n  <span class='visible'>\n   bilibili.com/video/av92\n  </span>\n  <span class='invisible'>\n   91548\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>\n<p>\n 看到上述两款游戏，你是不是对外挂又有了新的理解，其实不管是单机游戏的修改器，还是网游的挂，都没有太多深度。外挂的最终形态，就是变身成黑客，攻击游戏本身，攻击玩家电脑，攻击服务器。\n</p>",
+            "answerLength": 2233,
+            "answerExtraction": " 虽然不是完全符合题主的要求，但这两款游戏，一定程度上形成了一个“开挂”的小圈子，各国作者都在研究如何更加优美，更加奔放的“开挂”。而且后者对于外挂的研究深度，一定程度诠释了外挂的最终形态。 第一款游戏是暗黑破坏神2。 无线电镇楼 暗黑破坏神2大家可能都玩过，一部分人的记忆停留在血乌都瑞尔上，硬核点的玩家可能还记得bu",
+            "keyWord": [
+                "人物",
+                "技术",
+                "作者",
+                "游戏",
+                "格斗游戏"
+            ],
+            "comment": 25
+        },
+        {
+            "userNickname": "Zign",
+            "userDescription": "资深技术宅，擅长一本正经的胡说八道",
+            "userImageUrl": "https://pic2.zhimg.com/d496be2288c91e30fab88d596aa4f985_is.jpg",
+            "answerStar": 1733,
+            "answerDescription": "<p>\n 有啊有啊。\n</p>\n<p>\n 有个游戏叫robocode，题主要不要试一试？这个就是你要的类型哦，包你满意。\n</p>\n<p>\n 2001年发布，最新版是2018年4月发布。\n</p>\n<p>\n 玩法很简单，用程序控制自己的坦克击毁对方坦克。\n</p>\n<p>\n 但实际上可没那么容易，开炮要算提前量，不过对方也不傻，会用随机移动来扰乱你的瞄准。当然你也要用有效的移动策略防止对方打中。\n</p>\n<p>\n 我随便贴个视频你体会一下\n</p>\n<a class=' wrap external' data-draft-node='block' data-draft-type='link-card' data-image='https://pic3.zhimg.com/v2-161bc814430e72f92169c4dafce0f326_r.jpg' data-image-height='252' data-image-width='448' href='https://link.zhihu.com/?target=https%3A//m.youku.com/video/id_XMzMxMzIwNTI0.html%3Fdebug%3Dflv%26source%3Dhttps%253A%252F%252Fwww.google.co.jp%252F' rel='nofollow noreferrer' target='_blank'>\n Robocode坦克大战\n</a>\n<p>\n 当然这是低段位的比试，双方的动作都有很多问题。高手对决可以用深不见底来形容。\n</p>\n<p>\n 虽然国内并不流行，但真的是很好的游戏。\n</p>",
+            "answerLength": 231,
+            "answerExtraction": " 有啊有啊。 有个游戏叫robocode，题主要不要试一试？这个就是你要的类型哦，包你满意。 2001年发布，最新版是2018年4月发布。 玩法很简单，用程序控制自己的坦克击毁对方坦克。 但实际上可没那么容易，开炮要算提前量，不过对方也不傻，会用随机移动来扰乱你的瞄准。当然你也要用有效的移动策略防止对方打中。 我随便贴",
+            "keyWord": [
+                "坦克",
+                "对方",
+                "游戏",
+                "移动",
+                "段位"
+            ],
+            "comment": 58
+        },
+        {
+            "userNickname": "张浩斌",
+            "userDescription": "给你的C++带上镣铐吧，欢迎来到Java的世界。",
+            "userImageUrl": "https://pic4.zhimg.com/v2-2630352fe12c8356c00a104250c9c567_is.jpg",
+            "answerStar": 733,
+            "answerDescription": "<p>\n 更新：感谢各位点赞，如想开私服，微信扫我头像。\n</p>\n<p>\n ——————————————————————————\n</p>\n<p>\n 这种游戏不要太多。\n</p>\n<p>\n 从最入门的\n</p>\n<a class=' wrap external' data-draft-node='block' data-draft-type='link-card' data-image='https://pic4.zhimg.com/v2-f716b368af91f05c4b7b76b440dd767f_180x120.jpg' data-image-height='990' data-image-width='1884' href='https://link.zhihu.com/?target=http%3A//code.org/' rel='nofollow noreferrer' target='_blank'>\n Code.org: What will you create?\n</a>\n<p>\n 到\n</p>\n<a class=' wrap external' data-draft-node='block' data-draft-type='link-card' data-image='https://pic2.zhimg.com/v2-97a8dbb36a2c37f570fff4014841f5ed_ipico.jpg' data-image-height='453' data-image-width='453' href='https://link.zhihu.com/?target=https%3A//baijiahao.baidu.com/s%3Fid%3D1615901927886806695%26wfr%3Dspider%26for%3Dpc' rel='nofollow noreferrer' target='_blank'>\n 适合锻炼编码技能的10个最佳编程游戏\n</a>\n<p>\n 到\n</p>\n<a class=' wrap external' data-draft-node='block' data-draft-type='link-card' href='https://link.zhihu.com/?target=https%3A//icpc.baylor.edu/' rel='nofollow noreferrer' target='_blank'>\n The ICPC International Collegiate Programming Contest\n</a>\n<p>\n 到\n</p>\n<a class=' wrap external' data-draft-node='block' data-draft-type='link-card' href='https://link.zhihu.com/?target=http%3A//www.codeforge.com/' rel='nofollow noreferrer' target='_blank'>\n Free Open Source Codes Forge and Sharing\n</a>\n<p>\n 到\n</p>\n<a class=' wrap external' data-draft-node='block' data-draft-type='link-card' data-image='https://pic3.zhimg.com/v2-1e6b64cf13587210e41b79fd2086c266_180x120.jpg' data-image-height='630' data-image-width='1200' href='https://link.zhihu.com/?target=https%3A//github.com/' rel='nofollow noreferrer' target='_blank'>\n Build software better, together\n</a>\n<p>\n</p>",
+            "answerLength": 222,
+            "answerExtraction": " 更新：感谢各位点赞，如想开私服，微信扫我头像。 —————————————————————————— 这种游戏不要太多。 从最入门的 Code.org: What will you create? 到 适合锻炼编码技能的10个最佳编程游戏 到 The ICPC International Collegiate Pro",
+            "keyWord": [
+                "游戏",
+                "私服",
+                "微信",
+                "编程",
+                "头像"
+            ],
+            "comment": 14
+        },
+        {
+            "userNickname": "知乎用户",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 618,
+            "answerDescription": "<p>\n 不知道大家有没有听过剧场效应？\n</p>\n<p>\n 大家只想在有秩序的环境下做那个有特权的人，\n</p>\n<p>\n 而不是在一个混乱的环境下肆无忌惮得做任何事。\n</p>\n<p>\n 在一个混乱的环境下大多数人只能被按在地上摩擦，即使没有被按地上摩擦，那也远没有开挂带来的凌驾于秩序之上规则之外的感觉来得更爽。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<blockquote>\n 什么是“剧场效应”？\n <br/>\n 在一个剧场里，大家都在看戏。每个人都有座位，大家都能看到演员的演出。忽然，有一个观众站起来看戏（可能是为了看的更清楚，也可能因为身高较矮），周围的人劝他坐下，他置若罔闻，求助剧场管理员，管理员却不在岗位。于是，周围的人为了看到演出，也被迫站起来看戏。最后全场的观众都从坐着看戏变成了站着看戏。\n <br/>\n 有什么区别吗？\n <br/>\n 先站起来看戏的人在短时间内看的更清楚了，等到大家都站起来了，所有人看的效果和原来几乎相同。\n <br/>\n 只是，所有人都成了站着看戏，所有人都更累了。\n <br/>\n 所有人，比原来付出了更多的体力成本，得到了和原来一样的（甚至更差）观剧效果。\n <br/>\n 更悲剧的是，虽然大家都更累了，但不会有任何人选择坐下来看戏。\n <br/>\n 因为，谁选择坐下来，谁就啥也看不到。\n <br/>\n 相反，还会有人开始站在椅子上看戏，引发更多的人也站在椅子上看戏。\n <br/>\n 于是，一种空前的奇观出现了，某处的椅子不是用来坐的，而是用来站的。\n <br/>\n 结果，破坏秩序的人没有得到持久的收益，而遵守秩序的人则是受害者。\n <br/>\n 表面上，要怪那个破坏秩序，先站起来的观众，是他，首先破坏了秩序。\n <br/>\n 实际上，真正的责任人，应该是剧场的管理员，毕竟，他是秩序维护者。\n</blockquote>",
+            "answerLength": 598,
+            "answerExtraction": " 不知道大家有没有听过剧场效应？ 大家只想在有秩序的环境下做那个有特权的人， 而不是在一个混乱的环境下肆无忌惮得做任何事。 在一个混乱的环境下大多数人只能被按在地上摩擦，即使没有被按地上摩擦，那也远没有开挂带来的凌驾于秩序之上规则之外的感觉来得更爽。 什么是“剧场效应”？ 在一个剧场里，大家都在看戏。每个人都有座位，大",
+            "keyWord": [
+                "秩序",
+                "剧场",
+                "所有人",
+                "大家",
+                "管理员"
+            ],
+            "comment": 69
+        },
+        {
+            "userNickname": "凛雪鸦",
+            "userDescription": "是谁缫此绝情丝，缚我道心二十年",
+            "userImageUrl": "https://pic3.zhimg.com/v2-bea6339917885269d32e995aa07e7600_is.jpg",
+            "answerStar": 215,
+            "answerDescription": "<p>\n 少年，你知道MUGEN神战吗？\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 为啥随便答一句就被顶起来了真正的圈内大佬的回答却没人看啊……\n</p>\n<p>\n <a class='internal' href='https://www.zhihu.com/question/320155407/answer/670408638'>\n  <span class='invisible'>\n   https://www.\n  </span>\n  <span class='visible'>\n   zhihu.com/question/3201\n  </span>\n  <span class='invisible'>\n   55407/answer/670408638\n  </span>\n  <span class='ellipsis'>\n  </span>\n </a>\n</p>",
+            "answerLength": 102,
+            "answerExtraction": " 少年，你知道MUGEN神战吗？ 为啥随便答一句就被顶起来了真正的圈内大佬的回答却没人看啊…… https://www. zhihu.com/question/3201 55407/answer/670408638 ",
+            "keyWord": [
+                "神战",
+                "圈内",
+                "大佬"
+            ],
+            "comment": 21
+        },
+        {
+            "userNickname": "知乎用户",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 431,
+            "answerDescription": "<p>\n 我之前就想要做一个这种游戏来着，没有人机界面，全部API提供，后来被朋友阻止了，他们的理由非常说服人：\n</p>\n<p>\n 我不想下班了以后再上班。。。。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n =====\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 没想到这么多人想要下班了以后再上班。。。。。有建设性意见的可以加我微信，备注：下班之后再上班，我拉你进讨论群。。。。\n</p>",
+            "answerLength": 129,
+            "answerExtraction": " 我之前就想要做一个这种游戏来着，没有人机界面，全部API提供，后来被朋友阻止了，他们的理由非常说服人： 我不想下班了以后再上班。。。。 ===== 没想到这么多人想要下班了以后再上班。。。。。有建设性意见的可以加我微信，备注：下班之后再上班，我拉你进讨论群。。。。 ",
+            "keyWord": [
+                "人机界面",
+                "建设性",
+                "游戏",
+                "理由",
+                "意见"
+            ],
+            "comment": 33
+        },
+        {
+            "userNickname": "孙悟空的狼牙棒",
+            "userDescription": "任索都玩，漫威DC都看，肯德基麦当劳都吃，相声只听德云社",
+            "userImageUrl": "https://pic2.zhimg.com/v2-b0baef99b78dbbdb42208f2f301c7097_is.jpg",
+            "answerStar": 144,
+            "answerDescription": "<p>\n 要是喜欢编程pk，可以去玩玩Screeps\n</p>\n<p>\n 用JavaScript调教你的AI侵略别人的领土保护自己的领土的游戏\n</p>\n<p>\n Steam上68，官网上有免费试玩版，没有中文\n</p>\n<p>\n 听说建议先玩玩试玩，因为太硬核了，很可能发现不对自己的胃口\n</p>\n<p>\n 我并没有玩过，因为没学过JS。。。\n</p>",
+            "answerLength": 124,
+            "answerExtraction": " 要是喜欢编程pk，可以去玩玩Screeps 用JavaScript调教你的AI侵略别人的领土保护自己的领土的游戏 Steam上68，官网上有免费试玩版，没有中文 听说建议先玩玩试玩，因为太硬核了，很可能发现不对自己的胃口 我并没有玩过，因为没学过JS。。。 ",
+            "keyWord": [
+                "玩玩",
+                "领土",
+                "硬核",
+                "编程",
+                "调教"
+            ],
+            "comment": 10
+        },
+        {
+            "userNickname": "邵烨程",
+            "userDescription": "力学/数码/游戏",
+            "userImageUrl": "https://pic4.zhimg.com/8928b8d46_is.jpg",
+            "answerStar": 163,
+            "answerDescription": "<p>\n 有这样的游戏，只是没有做成对战类网络游戏。\n</p>\n<p>\n 在大学里，这个游戏叫航模大赛/机器人大赛/算法大赛。\n</p>\n<p>\n 在体育界，这个游戏叫F1。\n</p>\n<p>\n 在网络上，这个游戏叫网络安全。\n</p>\n<p>\n 在市场上，这个游戏叫程序化交易。\n</p>\n<p>\n 至于为什么没有面向普通玩家的游戏，这样的设定，与天斗，太容易，与人斗，太难了。\n</p>",
+            "answerLength": 130,
+            "answerExtraction": " 有这样的游戏，只是没有做成对战类网络游戏。 在大学里，这个游戏叫航模大赛/机器人大赛/算法大赛。 在体育界，这个游戏叫F1。 在网络上，这个游戏叫网络安全。 在市场上，这个游戏叫程序化交易。 至于为什么没有面向普通玩家的游戏，这样的设定，与天斗，太容易，与人斗，太难了。 ",
+            "keyWord": [
+                "游戏",
+                "大赛",
+                "航模",
+                "战类",
+                "天斗"
+            ],
+            "comment": 12
+        },
+        {
+            "userNickname": "李云景页",
+            "userDescription": "帝都五道口男子职业技术学院修电脑专业本科",
+            "userImageUrl": "https://pic2.zhimg.com/654053165913ff82d1c121d674a6554d_is.jpg",
+            "answerStar": 27,
+            "answerDescription": "<p>\n 清华每年春季学期都有智能体比赛，基本上就是自己写AI互相对战……\n</p>",
+            "answerLength": 32,
+            "answerExtraction": " 清华每年春季学期都有智能体比赛，基本上就是自己写AI互相对战…… ",
+            "keyWord": [
+                "学期",
+                "清华",
+                "春季"
+            ],
+            "comment": 2
+        },
+        {
+            "userNickname": "常有晴",
+            "userDescription": "2019亚洲杯数据分析师/FM2017官中运动发起者",
+            "userImageUrl": "https://pic1.zhimg.com/96b854205608f858c2181c6766dfc2b8_is.jpg",
+            "answerStar": 77,
+            "answerDescription": "<p>\n 本末倒置了。\n</p>\n<p>\n 游戏的第一要素是好玩，不是防作弊。还是那句话：游戏不是为了防作弊而开发的。\n</p>\n<p>\n 开发者全部精力放在玩法上，也不能保证游戏好玩，怎么会更多关注防作弊呢？\n</p>\n<p>\n 而作弊者，不好玩的游戏他也不会去玩。因为他享受的是相对大部分人的优势。一个人玩作弊缺乏观众。\n</p>\n<p>\n 如果有人费尽心思开发防作弊机制，结果可能是不好玩儿没人玩，作弊机制无用武之地。而游戏好玩，大量玩家涌入，导致需求巨大，再好的防作弊机制也会被破解\n</p>",
+            "answerLength": 196,
+            "answerExtraction": " 本末倒置了。 游戏的第一要素是好玩，不是防作弊。还是那句话：游戏不是为了防作弊而开发的。 开发者全部精力放在玩法上，也不能保证游戏好玩，怎么会更多关注防作弊呢？ 而作弊者，不好玩的游戏他也不会去玩。因为他享受的是相对大部分人的优势。一个人玩作弊缺乏观众。 如果有人费尽心思开发防作弊机制，结果可能是不好玩儿没人玩，作弊",
+            "keyWord": [
+                "作弊",
+                "游戏",
+                "机制",
+                "作弊者",
+                "费尽心思"
+            ],
+            "comment": 14
+        },
+        {
+            "userNickname": "吃骨头的鱼",
+            "userDescription": "心有所执，方能甲地。",
+            "userImageUrl": "https://pic4.zhimg.com/v2-e1c4639f3f13d4b9924840477a71788b_is.jpg",
+            "answerStar": 103,
+            "answerDescription": "<p>\n 你要知道，这些人开挂，是因为他们太loser\n</p>\n<p>\n 只能在一个公平环境下去用不公平的工具满足于自身产生虚假成就感\n</p>\n<p>\n 真要真刀真枪干外挂服务器\n</p>\n<p>\n csgo有外挂社区服务器\n</p>\n<p>\n 在那里面，什么锁头穿墙都是弟弟\n</p>\n<p>\n 小陀螺都是垃圾\n</p>\n<p>\n 那里大陀螺是起步，大陀螺不是你转的更快打的更快\n</p>\n<p>\n 大陀螺是能规避子弹的\n</p>\n<p>\n 就像题主说的，比拼算法优劣了\n</p>\n<p>\n 你觉得，公平环境下low到开挂的菜狗，他会编程吗？\n</p>",
+            "answerLength": 170,
+            "answerExtraction": " 你要知道，这些人开挂，是因为他们太loser 只能在一个公平环境下去用不公平的工具满足于自身产生虚假成就感 真要真刀真枪干外挂服务器 csgo有外挂社区服务器 在那里面，什么锁头穿墙都是弟弟 小陀螺都是垃圾 那里大陀螺是起步，大陀螺不是你转的更快打的更快 大陀螺是能规避子弹的 就像题主说的，比拼算法优劣了 你觉得，公",
+            "keyWord": [
+                "陀螺",
+                "公平",
+                "外挂",
+                "服务器",
+                "穿墙"
+            ],
+            "comment": 11
+        },
+        {
+            "userNickname": "灵剑",
+            "userDescription": "微博一般不上 http://weibo.com/hubo1016",
+            "userImageUrl": "https://pic4.zhimg.com/fb3c5da43_is.jpg",
+            "answerStar": 23,
+            "answerDescription": "<p>\n 那岂不是不充钱就能变强了，还挣什么钱啊\n</p>",
+            "answerLength": 19,
+            "answerExtraction": " 那岂不是不充钱就能变强了，还挣什么钱啊 ",
+            "keyWord": [],
+            "comment": 3
+        },
+        {
+            "userNickname": "博爱之城",
+            "userDescription": "很不圣母，很不清真，很不女权",
+            "userImageUrl": "https://pic1.zhimg.com/v2-95b893a4123dc9d8b7f28dc0faae18a0_is.jpg",
+            "answerStar": 17,
+            "answerDescription": "<p>\n 很简单，喜欢开挂玩游戏的人所喜欢的并不是“开挂”这个行为本身，而是喜欢通过使用游戏规则之外的手段来获得碾压遵守规则的人从而获取额外快感。\n</p>\n<p>\n 而你一旦将“开挂”规则化（简单的例子就是守望先锋，76和麦克雷的大招搁别的FPS游戏里妥妥的锁头自瞄挂），那么开挂的人就无法获得额外的快感，从而放弃这个游戏，去找下一个可以获得额外快感的游戏继续去装逼。\n</p>\n<p>\n 而多人游戏（无论物理还是电子）的本质就是要在给定的规则约束下来玩的，所以不可能容忍超出规则的手段。\n</p>\n<p>\n 因此这个问题，除了通过封号将开挂的人隔离出游戏之外，别无他解\n</p>",
+            "answerLength": 248,
+            "answerExtraction": " 很简单，喜欢开挂玩游戏的人所喜欢的并不是“开挂”这个行为本身，而是喜欢通过使用游戏规则之外的手段来获得碾压遵守规则的人从而获取额外快感。 而你一旦将“开挂”规则化（简单的例子就是守望先锋，76和麦克雷的大招搁别的FPS游戏里妥妥的锁头自瞄挂），那么开挂的人就无法获得额外的快感，从而放弃这个游戏，去找下一个可以获得额外",
+            "keyWord": [
+                "游戏",
+                "规则",
+                "规则化",
+                "麦克雷",
+                "手段"
+            ],
+            "comment": 4
+        },
+        {
+            "userNickname": "白刃雪纷纷",
+            "userDescription": "闲窗喑哑任风谄",
+            "userImageUrl": "https://pic4.zhimg.com/v2-8202b1221f1ee59f3f3a10aa13fee2ef_is.jpg",
+            "answerStar": 26,
+            "answerDescription": "<p>\n 额，据我所知，有人在去年组织了一场“神仙大乱斗”。\n</p>\n<p>\n 是的，绝地求生神仙大乱斗比赛，参赛选手带上各自的挂，看谁能活到最后，在斗鱼直播的好像……\n</p>\n<p>\n 然后比赛被叫停了。\n</p>\n<p>\n …………………………………分割线…………………………\n</p>\n<p>\n 守望也出地图工坊了，你可以完全自定义除人物模型和地图模型外的任何细节，比如更改技能和触发动作，改变角色在某种地形上的移速，改变弹道速度和命中判定，传送角色，更改物品属性等等……\n</p>\n<p>\n 不知道会不会出一个挂房……\n</p>\n<p>\n</p>",
+            "answerLength": 205,
+            "answerExtraction": " 额，据我所知，有人在去年组织了一场“神仙大乱斗”。 是的，绝地求生神仙大乱斗比赛，参赛选手带上各自的挂，看谁能活到最后，在斗鱼直播的好像…… 然后比赛被叫停了。 …………………………………分割线………………………… 守望也出地图工坊了，你可以完全自定义除人物模型和地图模型外的任何细节，比如更改技能和触发动作，改变角色",
+            "keyWord": [
+                "大乱斗",
+                "神仙",
+                "角色",
+                "地图",
+                "比赛"
+            ],
+            "comment": 6
+        },
+        {
+            "userNickname": "王凯伦",
+            "userDescription": "学生/信息安全爱好者/段子手/伪Helen",
+            "userImageUrl": "https://pic1.zhimg.com/03b42d62450ffcb05428b958512bea22_is.jpg",
+            "answerStar": 11,
+            "answerDescription": "<p>\n ctf线下赛了解下，主办方给每只队伍的gamebox内置有漏洞的服务，定时给有漏洞的服务下发flag。\n</p>\n<p>\n 作为黑客你要挖掘服务的漏洞，抢别人的flag拿分，修复自己的漏洞。\n</p>\n<p>\n 你可以选择把你的服务删到只是开着端口（如果主办方check服务down没down的程度很弱），上通防，甚至把别的黑客的payload拿来自己用。\n</p>\n<p>\n 玩法多样，欢迎入坑\n</p>\n<p>\n （我个没打进过线下赛的辣鸡说啥说）\n</p>",
+            "answerLength": 182,
+            "answerExtraction": " ctf线下赛了解下，主办方给每只队伍的gamebox内置有漏洞的服务，定时给有漏洞的服务下发flag。 作为黑客你要挖掘服务的漏洞，抢别人的flag拿分，修复自己的漏洞。 你可以选择把你的服务删到只是开着端口（如果主办方check服务down没down的程度很弱），上通防，甚至把别的黑客的payload拿来自己用。 ",
+            "keyWord": [
+                "漏洞",
+                "服务",
+                "黑客",
+                "线下",
+                "主办方"
+            ],
+            "comment": 3
+        },
+        {
+            "userNickname": "受尽苦难而不厌",
+            "userDescription": "修罗之道",
+            "userImageUrl": "https://pic4.zhimg.com/v2-0c1c2a2405a727a68e32c19e708b8ae3_is.jpg",
+            "answerStar": 35,
+            "answerDescription": "<p>\n 谢邀，人在美国，刚下飞机，利益相关，圈内人太多，匿了...\n</p>\n<p>\n 没考虑过孤儿为什么开挂吗？不开挂的情况下完全被别人碾压的操作然后无能狂怒，作弊乱杀的愉悦感麻痹了大脑，产生自我满足。\n</p>\n<p>\n 你让一个游戏里其他人都是挂？那就又回到最初的起点，被碾压...\n</p>\n<p>\n 一个经常无论打什么游戏都作弊的人和一个小有技术经常诛仙的人相比，现在都拿到外挂，那不是又成杀猪模式了。\n</p>\n<p>\n 孤儿还会继续玩吗？肯定不会了，找其他游戏去了...\n</p>",
+            "answerLength": 194,
+            "answerExtraction": " 谢邀，人在美国，刚下飞机，利益相关，圈内人太多，匿了... 没考虑过孤儿为什么开挂吗？不开挂的情况下完全被别人碾压的操作然后无能狂怒，作弊乱杀的愉悦感麻痹了大脑，产生自我满足。 你让一个游戏里其他人都是挂？那就又回到最初的起点，被碾压... 一个经常无论打什么游戏都作弊的人和一个小有技术经常诛仙的人相比，现在都拿到外",
+            "keyWord": [
+                "碾压",
+                "作弊",
+                "孤儿",
+                "游戏",
+                "圈内人"
+            ],
+            "comment": 11
+        },
+        {
+            "userNickname": "Mr.Chinico",
+            "userDescription": "公众号「数字艺界」原创数字艺术平台",
+            "userImageUrl": "https://pic3.zhimg.com/v2-ad323301d1d77e496b394f64e6df700e_is.jpg",
+            "answerStar": 46,
+            "answerDescription": "<p>\n <b>\n  那么，这样一款网游活得不会长久。\n </b>\n</p>\n<p>\n 先不提是否能盈利这样的资本问题。就产品需求而言，这也不是一个强需求。\n</p>\n<p>\n 一个最简单的例子，中国网游玩家中编程技能相关玩家的占比将会是一个非常小的占比（这个是我乱说的没有实际数据支撑）那么你要如何指望那些油腻的中年大叔，和连英语都考不及格的小学生们扛起这个号称可以自主编程的网游的流量大旗呢？\n</p>\n<p>\n 又一个简单例子，开放与风险并存，大家都知道一个开放的系统中的隐患是如此之多，先不说恶意代码会不会影响到运营方的安全。往好的方面想也是拥有这样特性的网游会给玩家带来极大的负体验，更大的前期体验悬殊，会将那些只以娱乐为目的的玩家拒之门外。他们大概率会成为老玩家们的玩具，没有打算接触编程接口的那群玩家更是永远和这款游戏说拜拜，因为他们永远不可能咸鱼翻身。\n</p>\n<p>\n 反过来说外挂，这个就跟有意思了。用外挂的人有多少？写外挂的人才多少？高下立判。\n</p>\n<p>\n 所以综上所述我认为，即使是制作了这样一款游戏也只是迎合了极小一部分用户的需求。大概率活不过预期的生命周期。\n</p>\n<p>\n 还请题主多考虑一下项目可行性，不然可能过不了项目审查这关喔。 :-p\n</p>",
+            "answerLength": 459,
+            "answerExtraction": " 那么，这样一款网游活得不会长久。 先不提是否能盈利这样的资本问题。就产品需求而言，这也不是一个强需求。 一个最简单的例子，中国网游玩家中编程技能相关玩家的占比将会是一个非常小的占比（这个是我乱说的没有实际数据支撑）那么你要如何指望那些油腻的中年大叔，和连英语都考不及格的小学生们扛起这个号称可以自主编程的网游的流量大旗",
+            "keyWord": [
+                "玩家",
+                "网游",
+                "编程",
+                "外挂",
+                "体验"
+            ],
+            "comment": 11
+        },
+        {
+            "userNickname": "爆弹魔",
+            "userDescription": "吹き飛んじまえ!",
+            "userImageUrl": "https://pic3.zhimg.com/v2-2492aea1f85709c336f406210ad7b021_is.jpg",
+            "answerStar": 7,
+            "answerDescription": "<p>\n 人家要的是开挂大杀四方，不是公平写挂竞争。要的是不平等的游戏体验，唯我独尊的享受，不是苦逼兮兮的去学编程。\n</p>",
+            "answerLength": 53,
+            "answerExtraction": " 人家要的是开挂大杀四方，不是公平写挂竞争。要的是不平等的游戏体验，唯我独尊的享受，不是苦逼兮兮的去学编程。 ",
+            "keyWord": [
+                "去学",
+                "编程",
+                "体验",
+                "游戏"
+            ],
+            "comment": 0
+        },
+        {
+            "userNickname": "I老蔡",
+            "userDescription": "人潮人海中是你是我,装作正派面带笑容,不必过分多说自己清楚,你我到底想要做些什么",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 7,
+            "answerDescription": "<p>\n 恐怕, 你是搞错了对象吧!\n</p>\n<p>\n 你以为喜欢开挂的都是程序高手? 都是技术宅?\n</p>\n\n \n  <img src='https://pic3.zhimg.com/50/v2-54a6220613002cb5446012e07599eae7_hd.jpg' width='640'>\n \n \n\n\n \n  <img src='https://pic4.zhimg.com/50/v2-8bd5a66fb48b90869ca0732397cee1ed_hd.jpg' width='640'>\n \n \n\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 这挂又不是他们自己写的.\n</p>\n<p>\n 这只是一帮连游戏都玩不好, 也没心思练练技术, 纯粹就像靠着作弊爽一把的废柴而已. 还写代码呢, 连开个写字板都够呛!\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 你这个问题让我想起了以前回答过的另一个问题, 好像是一百块钱如何取悦女朋友什么的.\n</p>\n<p>\n 结果就同样有技术宅搞什么开发板, 搞什么bling bling的发光管, 费了几天搞出来一个土里吧唧的' I LOVE U'跑马灯.\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-43da28d3e6c2d8fc86dd742b1bf91d3e_hd.jpg' width='640'>\n \n \n\n\n \n  <img src='https://pic1.zhimg.com/50/v2-0529624962c9af348573f08e8b7fdd0b_hd.jpg' width='640'>\n \n \n\n<p>\n 简直就是车祸现场...\n</p>\n<p>\n 哪怕送支玫瑰, 两个人咖啡馆喝一杯都比这个要好吧.\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 所以啊, 思路最重要.\n</p>\n<p>\n</p>",
+            "answerLength": 245,
+            "answerExtraction": " 恐怕, 你是搞错了对象吧! 你以为喜欢开挂的都是程序高手? 都是技术宅? 这挂又不是他们自己写的. 这只是一帮连游戏都玩不好, 也没心思练练技术, 纯粹就像靠着作弊爽一把的废柴而已. 还写代码呢, 连开个写字板都够呛! 你这个问题让我想起了以前回答过的另一个问题, 好像是一百块钱如何取悦女朋友什么的. 结果就同样有技",
+            "keyWord": [
+                "技术",
+                "跑马灯",
+                "写字板",
+                "发光管",
+                "废柴"
+            ],
+            "comment": 4
+        },
+        {
+            "userNickname": "知乎用户",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 17,
+            "answerDescription": "<p>\n 你说的是上古时期的MUD ...\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n\n \n  <img src='https://pic2.zhimg.com/50/v2-95045a4b3943590e8089269ffb8b56dd_hd.jpg' width='640'>\n \n \n\n<p>\n 你就可以用登陆软件写程序\n</p>\n<p>\n if 张三丰：\n</p>\n<p>\n Kill zhang sanfeng\n</p>\n<p>\n 这样。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 高手还可以自己画地图，自己打怪升级，自己pk。。。\n</p>\n\n \n  <img src='https://pic1.zhimg.com/50/v2-73869b38eaec221bcde6a1e4a52b9f7a_hd.jpg' width='640'>\n \n \n\n<p>\n if ???(你已经陷入半昏迷状态)\n</p>\n<p>\n quit\n</p>\n<p>\n quit\n</p>\n<p>\n quit\n</p>",
+            "answerLength": 106,
+            "answerExtraction": " 你说的是上古时期的MUD ... 你就可以用登陆软件写程序 if 张三丰： Kill zhang sanfeng 这样。 高手还可以自己画地图，自己打怪升级，自己pk。。。 if ???(你已经陷入半昏迷状态) quit quit quit ",
+            "keyWord": [
+                "张三丰",
+                "上古",
+                "高手",
+                "软件",
+                "地图"
+            ],
+            "comment": 6
+        },
+        {
+            "userNickname": "司马龙藏",
+            "userDescription": "在读医学僧",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 7,
+            "answerDescription": "csgo的私人服务器有hvh服，通俗来讲就是挂VS挂，可以去看看\n",
+            "answerLength": 32,
+            "answerExtraction": " csgo的私人服务器有hvh服，通俗来讲就是挂VS挂，可以去看看 ",
+            "keyWord": [
+                "服务器",
+                "通俗",
+                "私人"
+            ],
+            "comment": 0
+        },
+        {
+            "userNickname": "Wesley",
+            "userDescription": "我宁愿做错 也不愿什么都不做",
+            "userImageUrl": "https://pic2.zhimg.com/v2-96daa089c52b6bfa6c3074ac843583f8_is.jpg",
+            "answerStar": 17,
+            "answerDescription": "<p>\n <b>\n  当所有人都55开了，那55开就不是55开了，也就没有五五开了\n </b>\n</p>",
+            "answerLength": 30,
+            "answerExtraction": " 当所有人都55开了，那55开就不是55开了，也就没有五五开了 ",
+            "keyWord": [
+                "所有人"
+            ],
+            "comment": 2
+        },
+        {
+            "userNickname": "冼辉",
+            "userDescription": "图书编辑/JS码农/半拉设计师/历史爱好者/阉党/步兵将军冼辉",
+            "userImageUrl": "https://pic4.zhimg.com/v2-391e037c3378529f7638c306139e647e_is.jpg",
+            "answerStar": 9,
+            "answerDescription": "<p>\n 耍外挂的人是为了挂吗？不是。是为了那种“我破坏了规则之后对你生杀予夺”的快感，就像是人民币玩家对穷玩家那种蹂躏的感觉。相比那些氪金网友，外挂的成本可是低多了。所以，都是外挂达不到那种虐别人的快感是没有用的。\n</p>",
+            "answerLength": 103,
+            "answerExtraction": " 耍外挂的人是为了挂吗？不是。是为了那种“我破坏了规则之后对你生杀予夺”的快感，就像是人民币玩家对穷玩家那种蹂躏的感觉。相比那些氪金网友，外挂的成本可是低多了。所以，都是外挂达不到那种虐别人的快感是没有用的。 ",
+            "keyWord": [
+                "外挂",
+                "玩家",
+                "生杀予夺",
+                "网友",
+                "规则"
+            ],
+            "comment": 0
+        },
+        {
+            "userNickname": "技能树IT修真院",
+            "userDescription": "找个师兄，带你入门，从零基础到独立完成项目的工程师",
+            "userImageUrl": "https://pic4.zhimg.com/v2-b103dfc88d8cc1ceccfd9750197bebcb_is.jpg",
+            "answerStar": 4,
+            "answerDescription": "<p>\n 这样的话这个游戏是不是对萌新劝退率更高了？\n</p>",
+            "answerLength": 21,
+            "answerExtraction": " 这样的话这个游戏是不是对萌新劝退率更高了？ ",
+            "keyWord": [
+                "游戏"
+            ],
+            "comment": 0
+        },
+        {
+            "userNickname": "知乎用户",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 9,
+            "answerDescription": "<p>\n <a class=' external' href='https://link.zhihu.com/?target=http%3A//codeforces.com' rel='nofollow noreferrer' target='_blank'>\n  <span class='invisible'>\n   http://\n  </span>\n  <span class='visible'>\n   codeforces.com\n  </span>\n  <span class='invisible'>\n  </span>\n </a>\n</p>\n<p>\n 肥肠符合您的要求了。\n</p>",
+            "answerLength": 31,
+            "answerExtraction": " http:// codeforces.com 肥肠符合您的要求了。 ",
+            "keyWord": [
+                "肥肠"
+            ],
+            "comment": 1
+        },
+        {
+            "userNickname": "知乎用户",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 8,
+            "answerDescription": "<p>\n 我感觉在国内，这样的游戏也可以有外挂的，特别当他是个网游的时候\n</p>\n<p>\n 比如我直接搞你的服务器，把自己名字写在排行榜第一，我打都不想打，装下逼展现一下真正的黑科技，在下面打的都是我儿子，你爸爸不用打就可以上排行榜第一哦。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 真正的防外挂就是让外挂在游戏中没有“产出”，说白了就是开挂没好处，这要从游戏设计上去防止，不能光从技术上，当然这说得容易但做起来很难。\n</p>\n<p>\n 比如前段时间看到好像是apex游戏在检测到有人开挂后，全地图的人都处于开挂状态，比如都可以透视，自瞄等，并且曝光开挂者，这样就让开挂者索然无味，捞不到好处，这样的设计才能杜绝部分外挂。\n</p>",
+            "answerLength": 264,
+            "answerExtraction": " 我感觉在国内，这样的游戏也可以有外挂的，特别当他是个网游的时候 比如我直接搞你的服务器，把自己名字写在排行榜第一，我打都不想打，装下逼展现一下真正的黑科技，在下面打的都是我儿子，你爸爸不用打就可以上排行榜第一哦。 真正的防外挂就是让外挂在游戏中没有“产出”，说白了就是开挂没好处，这要从游戏设计上去防止，不能光从技术上",
+            "keyWord": [
+                "外挂",
+                "游戏",
+                "排行榜",
+                "挂者",
+                "索然无味"
+            ],
+            "comment": 7
+        },
+        {
+            "userNickname": "和君之",
+            "userDescription": "山河未曾谙，寰宇入梦来",
+            "userImageUrl": "https://pic2.zhimg.com/v2-6066e586865551fd1416f1b133df4032_is.jpg",
+            "answerStar": 19,
+            "answerDescription": "<p>\n 这怎么能少了老牌fps游戏，大名鼎鼎的穿越挂线（cross fucking，简称cf）呢？\n</p>\n<p>\n 正式服的外挂不能满足题意。基本处于不明显的挂（如透视）大号开着，明目张胆的挂基本是小号的状态。如果是大号明目张胆开挂100%是盗号/借号/租号\n</p>\n<p>\n 但是！\n</p>\n<p>\n cf还有一个服务器，叫做体验服\n</p>\n<p>\n 当年体验服本意好像是比正式服早更新，用于玩家测试。然而体验服很快外挂横行，也不知官方怎么下了决心，就把体验服变成养挂场所了，在体验服开挂我好像没听说过有处罚。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 反正体验服就是个神仙斗法的地方:\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 进入刀战地图，作为良民入场。刚进场对面就冲过来个玩家，他手上的拳套挥得凶猛，下下似猛虎扑食，却又快若轻鸟舞翅，大有金丹期气势，你就看见个无影爪刚碰到你就横尸了\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 然后我方一个队友突然大喝一声，震退金丹术士，掏出破天斩魔剑（PS，这武器最早设定名叫玩具大宝剑），然后挥得刀下生风！同时脚法神速，有若神行太保，定是元婴强者！\n</p>\n<p>\n 然后他就从我们家走到对面家一遍，把包括那个拳套哥在内的全干趴下了。\n</p>\n<p>\n 结果对面又进来个屠龙哥，他的术法依然是快刀。但恐怖的是他的刀只有起手没有落刀，我连挥刀距离都看不清，只要进入攻击范围就死。\n</p>\n<p>\n 这哥们跟我方元婴大宝剑战了几个来回，互有胜负，看来也是元婴大神。\n</p>\n<p>\n 这边正难舍难分，对面又突入一个身影。只是他一进来就开始翻滚（正常角色被擎天打死时的特效“再见兄弟”，会有一个大幅度翻滚，然后这玩家一进来就自己在那翻）\n</p>\n<p>\n 看起来相当厉害啊！完全不知道他的真实位置在哪。犹如轻功高手，身影不定。\n</p>\n<p>\n 结果我方大宝剑冷笑一声，高速再来了个绕场循环，连翻滚哥一并砍倒在地。\n</p>\n<p>\n 好吧，原来是个中看不中用的。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 然后对面又进来个屠龙哥，只是……只是我看不到人物模型。恐怕已是出窍分神，实力深不可测！\n</p>\n<p>\n 至于为何我知道是屠龙？因为他站在原地，轻抬宝刀，就能以屠龙索命千里之外。（玩家对这个挂取的外号叫做“小李飞刀”）\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 不，这可能已经是合体期了！他轻轻松松把我方大宝剑摁在地上摩擦。元婴强者都被打得惨不忍睹。（话说我们这边就大宝剑一个修仙之人，所以其他人完全是任人鱼肉状态）\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 后来这位强者觉得太无趣，自己跳到地图底下（死亡隧道地图）划水去了。（我下去就看到一片轻刀打水激起的水花犹如水雾一样，他一抬头我就GG了）\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 这时，一个笑脸兵入场。刚瞥见他的级别（最低级别图标就是个笑脸）就两股战战，要知道，在正服仙家最强战力基本是笑脸兵。\n</p>\n<p>\n 还未等我缓过神来，只见他小刀在空中漫无目的地一划，我们这边全部人应声倒下！\n</p>\n<p>\n 倒在血泊中的我才忽然顿悟了，原来笑脸，是对凡人最大的鄙夷和嘲讽。\n</p>\n<p>\n （问题是这把怎么挂基本都在对面？）\n</p>\n<p>\n [以上除艺术加工外全都是我真的见过的外挂]\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 还有一次是生化模式。一个玩家拿着生化手雷无限投掷，而且还在天空飞。跟轰炸机似的，炸的全房都有点卡。\n</p>\n<p>\n 美中不足的是他的飞天挂需要不断按跳跃键，不然会下坠，显得不太美观。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 也许这把无敌手，太无聊了，这玩家没有参与下一把。\n</p>\n<p>\n 结果新一轮开始，玩家中一架空中炮艇直接起飞，拿着巴雷特，把原本2-3秒一枪的大炮打出了半秒一枪的速度，还不用换子弹。\n</p>\n<p>\n 妥妥空中炮艇，我们所有人都变生化了他还在空中火力压制。而且他的飞天挂是固定高度的，不需要他连续操作。所以他可以专心开炮。\n</p>\n<p>\n 正当我以为又要望洋兴叹的时候，生化群里突然窜出一只刚才还平平无奇的小红，腾空而起，直奔炮艇。\n</p>\n<p>\n 我们麦都兴奋炸了:\n</p>\n<p>\n “卧槽！神仙对决啊！”“抓他！抓他！”\n</p>\n<p>\n 这小红飞天就是上局那个轰炸机的连续跳跃飞天。虽然慢了点，但却恰恰对固定高度的飞天形成了威胁。\n</p>\n<p>\n 小红从下面一点点扑上去，炮艇的飞天挂改变高度似乎很不连续，所以他只能且战且退。\n</p>\n<p>\n 勉强打死小红一次，击退第一波攻击。\n</p>\n<p>\n 但很快小红复活，继续扑上来。炮艇不就就被贴身击毙了。\n</p>\n<p class='ztext-empty-paragraph'>\n <br/>\n</p>\n<p>\n 后来他两还搞出了飞天终结者对战空中炮艇，飞天终结者对决飞天复仇女神……\n</p>\n<p>\n 反正我们一帮凡人都在地上喊666\n</p>",
+            "answerLength": 1555,
+            "answerExtraction": " 这怎么能少了老牌fps游戏，大名鼎鼎的穿越挂线（cross fucking，简称cf）呢？ 正式服的外挂不能满足题意。基本处于不明显的挂（如透视）大号开着，明目张胆的挂基本是小号的状态。如果是大号明目张胆开挂100%是盗号/借号/租号 但是！ cf还有一个服务器，叫做体验服 当年体验服本意好像是比正式服早更新，用于玩",
+            "keyWord": [
+                "飞天",
+                "炮艇",
+                "玩家",
+                "体验",
+                "对面"
+            ],
+            "comment": 2
+        },
+        {
+            "userNickname": "困惑",
+            "userDescription": "程序猴",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 4,
+            "answerDescription": "<p>\n 有啊，20年前就有，所有的文字mud都可以实现你说的这种效果，zmud的机器人不要太强大。\n</p>",
+            "answerLength": 45,
+            "answerExtraction": " 有啊，20年前就有，所有的文字mud都可以实现你说的这种效果，zmud的机器人不要太强大。 ",
+            "keyWord": [
+                "太强大",
+                "机器人",
+                "年前"
+            ],
+            "comment": 0
+        },
+        {
+            "userNickname": "渔家傲",
+            "userDescription": "精通各种linux软件安装 hello world程序编写",
+            "userImageUrl": "https://pic4.zhimg.com/da8e974dc_is.jpg",
+            "answerStar": 3,
+            "answerDescription": "<p>\n 代码坦克了解一下\n</p>\n<p>\n 开挂的人又不是写外挂的人 他们的目的是为了爽 比如一箭爆头 自动瞄准 看到挡住的敌人方便打等等\n</p>",
+            "answerLength": 51,
+            "answerExtraction": " 代码坦克了解一下 开挂的人又不是写外挂的人 他们的目的是为了爽 比如一箭爆头 自动瞄准 看到挡住的敌人方便打等等 ",
+            "keyWord": [
+                "外挂",
+                "代码",
+                "坦克",
+                "自动"
+            ],
+            "comment": 0
+        },
+        {
+            "userNickname": "gabe",
+            "userDescription": "这个人很懒 啥也没留下",
+            "userImageUrl": "https://pic1.zhimg.com/v2-aa38edaa67dd17113faaa48bdeb1d07c_is.jpg",
+            "answerStar": 3,
+            "answerDescription": "<p>\n 各种quant不知道算不算，玩好了就可以发家致富了。\n</p>",
+            "answerLength": 26,
+            "answerExtraction": " 各种quant不知道算不算，玩好了就可以发家致富了。 ",
+            "keyWord": [],
+            "comment": 0
+        },
+        {
+            "userNickname": "Catium",
+            "userDescription": "风筝有风,海豚有海",
+            "userImageUrl": "https://pic2.zhimg.com/v2-bca7a1c5058e4586610fd01a9e2b575c_is.jpg",
+            "answerStar": 6,
+            "answerDescription": "<p>\n 外挂打游戏真的好蠢。星际争霸，dota2等竞技游戏都有AI接口，可以编制机器人，每年还有比赛。\n</p>\n<p>\n 让我们拒绝偷鸡摸狗的小聪明，挑战更快更高更强的大智慧吧。\n</p>\n<p>\n （振臂高呼）\n</p>",
+            "answerLength": 81,
+            "answerExtraction": " 外挂打游戏真的好蠢。星际争霸，dota2等竞技游戏都有AI接口，可以编制机器人，每年还有比赛。 让我们拒绝偷鸡摸狗的小聪明，挑战更快更高更强的大智慧吧。 （振臂高呼） ",
+            "keyWord": [
+                "星际争霸",
+                "振臂高呼",
+                "小聪明",
+                "偷鸡摸狗"
+            ],
+            "comment": 0
+        }
+    ],
+    "globalKeyword": [
+        "游戏",
+        "玩家",
+        "外挂",
+        "子孙",
+        "金币"
+    ]
+}

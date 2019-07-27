@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="no-referrer"/>
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.ico">
+    <!--    使用iconfont-->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1258904_qbsqtzsqgz.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/public.css">
+    <link rel="stylesheet" href="../static/css/writeArticle_page.css">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>知否——有问题上知否</title>
+</head>
+<body onload="checkPageCookie();changePersonalImage();writeArticleOnload()" id="body">
+<div>
+    <nav class="navbar">
+        <div class="page-container-header">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <div class="page-header-logo">
+                        <img src="../static/img/QA.png" id="QA-img" width="114" height="30" alt="">
+                    </div>
+                    <div class="d-inline-block" style="vertical-align: middle">
+                        <div onclick="window.location.href = window.location.origin +'/zhifou/user/main'" class="page-header-nav">
+                            <div style="display: flex;align-items: center;height: 100%">
+                                <span style="font-size: 16px">首页</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="page-header-nav-button" onclick="displayHeaderTip('dark-night','pageHeaderDark')" id="pageHeaderDark"
+                         style="border-top: 4px solid transparent;
+                     border-left: 1px solid transparent;border-right: 1px solid transparent;">
+                        <div style="display: flex;align-items: center;height: 100%">
+                            <span class="iconfont icon-moonbyueliang" style="font-size: 16px;padding-bottom: 2px"></span>
+                        </div>
+                    </div>
+                    <div class="page-header-nav-button" onclick="displayHeaderTip('personalInfo','pageHeaderInfo')" id="pageHeaderInfo"
+                         style="border-top: 4px solid transparent;
+                     border-left: 1px solid transparent;border-right: 1px solid transparent;">
+                        <div style="display: flex;align-items: center;height: 100%">
+                            <img style="display: none;border-radius: 50% 50%" width="35" height="35" id="yonghu-picture">
+                            <span class="iconfont icon-yonghu2" style="font-size: 20px;padding-bottom: 2px" id="yonghu-icon"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <!--                点击用户头像的控件-->
+                <div class="page-header-personalInfo" style="display: none" id="personalInfo">
+                    <div style="padding-top: 10px;margin-top: -5px">
+                        <div class="page-personalInfo" style="margin: 0 auto">
+                            <div class="page-personalInfo-items" onclick="window.location.href = window.location.origin +'/zhifou/user/personalPage?type=dynamic'">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-yonghu" style="line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px">我的主页</span>
+                                </div>
+                            </div>
+                            <div class="page-personalInfo-items" onclick="window.location.href = window.location.origin +'/zhifou/user/setting' ">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-icon_set_up" style="line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px">设置</span>
+                                </div>
+                            </div>
+                            <div class="page-personalInfo-items" onclick="quitWeb()">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-tuichu" style="line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px">退出</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-header-personalInfo" style="display: none" id="dark-night">
+                    <div style="padding-top: 10px;margin-top: -5px;margin-right: 10px">
+                        <div class="page-personalInfo" style="margin: 0 auto">
+                            <div class="page-dark-night-item">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-moonbyueliang" style="font-size: 14px;line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px;font-size: 14px">夜间模式</span>
+                                </div>
+                            </div>
+                            <div class="page-dark-night-item">
+                                <button type="button" class="dark-night-button" onclick="changeWebState('colorStyle','open')" style="width: 50%;border-radius: 20px 0 0 20px" id="open-dark">开</button>
+                                <button type="button" class="dark-night-button-press" onclick="changeWebState('colorStyle','close')" style="width: 50%;border-radius: 0 20px 20px 0" id="close-dark">关</button>
+                            </div>
+                            <hr style="margin: 10px 0!important;">
+                            <div class="page-dark-night-item">
+                                <div class="d-inline-block align-middle">
+                                    <span class="iconfont icon-ziti" style="font-size: 14px;line-height: 14px"></span>
+                                </div>
+                                <div class="d-inline-block align-middle">
+                                    <span style="padding-left: 5px;font-size: 14px">字体切换</span>
+                                </div>
+                            </div>
+                            <div class="page-dark-night-item">
+                                <button type="button" class="dark-night-button" onclick="changeWebState('fontStyle','songTi')" style="width: 50%;border-radius: 20px 0 0 20px" id="songTiButton">宋体</button>
+                                <button type="button" class="dark-night-button-press" onclick="changeWebState('fontStyle','heiTi')" style="width: 50%;border-radius: 0 20px 20px 0" id="heiTiButton">黑体</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--导航栏下方主题内容-->
+<!--card-columns-->
+<!--这里用bootstrap4的d-flex 和flex-fill解决左边div定宽度，右边div自适应扩充宽度问题-->
+<div class="writeArticle-container">
+    <div class="writeArticle-content">
+        <div class="article-title-content">
+            <input type="text" class="article-title-input" id="article-title-input" maxlength="32" placeholder="文章标题">
+        </div>
+        <div id="article-editor" class="article-edit-content">
+        </div>
+    </div>
+</div>
+
+<!--zhifouAlert-->
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="position: fixed;top: 65px;height: 0;width: 100%;z-index: 9999">
+    <div class="toast" role="alert" id="alertModal" aria-live="assertive" aria-atomic="true" data-delay="3500" style="min-width: 250px;border-radius: 10px">
+        <div class="toast-header d-flex justify-content-between align-items-center" style="padding: 4px 20px">
+            <div class="d-inline-block bottom">
+                <img src="../static/img/QA.png" width="57" height="15px" class="rounded mr-2" alt="...">
+            </div>
+            <div class="d-inline-block align-middle">
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true" class="page-toast-close">&times;</span>
+                </button>
+            </div>
+        </div>
+        <div class="toast-body page-toast-text" id="content">
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../static/script/public.js"></script>
+<script type="text/javascript" src="../static/script/writeArticle_page.js"></script>
+<!--使用wangEditor编辑器-->
+<script type="text/javascript" src="../static/script/TextEditor.js"></script>
+<script type="text/javascript">
+    var Edit = window.wangEditor;
+    editor = new Edit( document.getElementById("article-editor") );
+    editor.customConfig.onchange = function () {
+        document.getElementById("edit-word-num").innerText = editor.txt.text().length;
+    };
+    // 编辑区域和菜单的z-index会同时生效
+    editor.customConfig.zIndex = 100;
+    editor.customConfig.menus = [
+        'head',  // 标题
+        'bold',  // 粗体
+        'fontSize',  // 字号
+        'italic',  // 斜体
+        'underline',  // 下划线
+        'strikeThrough',  // 删除线
+        'list',  // 列表
+        'justify',  // 对齐方式
+        'link',  // 插入链接
+        'image',  // 插入图片
+        'video',  // 插入视频
+        'code',  // 插入代码
+        'undo',  // 撤销
+        'redo'  // 重复
+    ];
+    editor.customConfig.linkImgCheck = function (src) {
+        console.log(src); // 图片的链接
+        return true; // 返回 true 表示校验成功
+        // return '验证失败' // 返回字符串，即校验失败的提示信息
+    };
+    editor.customConfig.linkCheck = function (text, link) {
+        console.log(text); // 插入的文字
+        console.log(link); // 插入的链接
+
+        return true // 返回 true 表示校验成功
+        // return '验证失败' // 返回字符串，即校验失败的提示信息
+    };
+    editor.create()
+</script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

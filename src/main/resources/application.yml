@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 12345678
+    url: jdbc:mysql://localhost:3306/zhifou?characterEncoding=utf8&serverTimezone=UTC
+  jpa:
+    show-sql: true
+  redis:
+    host: 192.168.30.113
+    port: 6379
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/
+server:
+  servlet:
+    context-path: /zhifou

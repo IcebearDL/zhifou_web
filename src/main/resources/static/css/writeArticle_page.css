@@ -1,0 +1,105 @@
+.writeArticle-container{
+    margin: 0 auto;
+    max-width: 790px;
+    padding: 20px;
+}
+
+.writeArticle-content{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.15);
+    border-radius: 15px;
+}
+
+.article-title-content{
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    background-color: inherit;
+}
+
+.article-title-input{
+    padding: 0 30px;
+    width: 100%;
+    font-size: 28px;
+    border: none!important;
+    background-color: inherit;
+    color: #333333;
+    outline: none!important;
+}
+
+.article-edit-content{
+    color: #2b2b2b;
+    background-color: #ffffff;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+/*富文本编辑器的css修改*/
+.w-e-toolbar .w-e-menu{
+    background-color: #ffffff!important;
+}
+
+.w-e-toolbar{
+    position: sticky!important;
+    top: 0!important;
+    z-index: 999!important;
+    background-color: #ffffff!important;
+    padding: 5px 0 0 0!important;
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-bottom: 1px solid #dddddd!important;
+}
+
+.w-e-droplist{
+    border-radius: 10px!important;
+}
+
+.w-e-toolbar .w-e-menu i {
+    color: #ff5c5c!important;
+}
+
+.w-e-toolbar .w-e-menu:hover i {
+    color: #ff8c8c!important;
+}
+
+.w-e-text-container{
+    height: auto!important;
+    min-height: 550px!important;
+    border: none!important;
+}
+
+.w-e-text{
+    overflow-y: auto!important;
+}
+
+.article-tips{
+    width: 100%;
+    display: inline-block;
+}
+
+.edit-word-num{
+    color: #ff5c5c;
+    padding: 0 10px!important;
+    font-size: 14px;
+}
+
+.article-submit-button{
+    height: 25px;
+    margin-left: 10px!important;
+    padding: 2px 12px!important;
+    background-color: #ffecec;
+    font-size: 14px;
+    color: #ff5c5c;
+    border-radius: 20px!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.article-submit-button:hover{
+    background-color: #ff5c5c;
+    color: #ffffff;
+}
+
+

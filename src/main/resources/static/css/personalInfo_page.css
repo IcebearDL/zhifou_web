@@ -1,0 +1,245 @@
+.personalInfo-container{
+    padding-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+}
+
+.personalInfo-content{
+<<<<<<< HEAD
+    max-width: 920px;
+=======
+    width: 920px;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    margin: 0 auto;
+    padding: 20px;
+    color: #1a1a1a;
+}
+
+.personalInfo-user{
+    padding-bottom: 20px;
+}
+
+.personalInfo-picture-content{
+    margin-right: 15px;
+}
+
+.personalInfo-picture{
+    border: 1px solid #ff5c5c;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50%;
+}
+
+.personalInfo-name{
+    padding: 10px 0;
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.personalInfo-description{
+    font-size: 15px;
+    color: #4d4c4c;
+}
+
+.personalInfo-button-group{
+<<<<<<< HEAD
+    max-width: 630px;
+=======
+    max-width: 680px;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    font-size: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.personalInfo-button{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 14px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+<<<<<<< HEAD
+    color: #727272;
+=======
+    color: #656d7d;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    text-align: center;
+    background-color: transparent;
+    outline: none!important;
+    border: 2px solid transparent;
+<<<<<<< HEAD
+    opacity: 0.8;
+=======
+    opacity: 0.7;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+}
+
+.personalInfo-button:hover{
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+<<<<<<< HEAD
+    border-bottom: 2px solid #4d4c4c;
+    color: #727272;
+=======
+    border-bottom: 2px solid #656d7d;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    opacity: 1;
+}
+
+.personalInfo-button-active{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 14px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+<<<<<<< HEAD
+    color: #4d4c4c;
+=======
+    color: #656d7d;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    text-align: center;
+    background-color: transparent;
+    outline: none!important;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+<<<<<<< HEAD
+    border-bottom: 2px solid #4d4c4c;
+=======
+    border-bottom: 2px solid #656d7d;
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+    opacity: 1;
+}
+
+.personal-info-content{
+    padding: 30px 0 20px 0;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #4d4c4c;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+}
+
+.personalInfo-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 15px 15px 20px;
+<<<<<<< HEAD
+}
+
+.page-card-bottom-focus{
+    display: inline-block;
+    font-size: 14px;
+    color: #8590a6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.personalInfo-answer-time{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #8590a6;
+    border-bottom: 1px solid #dddddd;
+}
+
+.personalInfo-divide{
+    display: flex;
+    align-items: flex-end;
+    height: 42px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 15px 0 40px;
+}
+
+.looking-answer-title{
+    font-size: 16px;
+    color: #1f8dfb!important;
+    cursor: pointer;
+}
+
+.looking-answer-title:hover{
+    text-decoration: underline!important;
+}
+
+.divide-button-active{
+    margin-left: 20px;
+    padding: 2px 15px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff6c6c;
+    border-radius: 15px;
+    cursor: default!important;
+    border: none;
+    outline: none!important;
+}
+
+.divide-button{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 2px 15px;
+    font-size: 14px;
+    color: #ff5c5c;
+    background-color: #ffecec;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none!important;
+}
+
+.divide-button:hover{
+    color: #ffffff;
+    background-color: #ff6c6c;
+}
+
+.myQuestion-bottom-text{
+    color: #ff5c5c;
+    cursor: default;
+}
+
+.myQuestion-delete{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 2px 15px;
+    font-size: 14px;
+    color: #ff5c5c;
+    background-color: #ffecec;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.myQuestion-delete:hover{
+    color: #ffffff;
+    background-color: #ff5c5c;
+}
+
+.personalInfo-card-tips{
+    width: 680px;
+    text-align: center;
+    padding: 15px 20px;
+    color: #8590a6;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1);
+}
+
+.personalInfo-tips{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.insertTime{
+    color: #ff5c5c;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #dddddd;
+=======
+>>>>>>> 275b31322d2e32543fd8ba2c46ab16916f5dfc81
+}
